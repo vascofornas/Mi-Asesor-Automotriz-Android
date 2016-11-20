@@ -1,0 +1,42 @@
+apply plugin: 'com.android.application'
+
+
+android {
+    signingConfigs {
+        config {
+            keyAlias 'aliasdemikeystore'
+            keyPassword 'glitter1965MVF'
+            storeFile file('/Users/modestovascofornas/dev/keystoreAndroid/mikeyAndroid.jks')
+            storePassword 'glitter1965MVF'
+        }
+    }
+    compileSdkVersion 23
+    buildToolsVersion "23.0.1"
+    defaultConfig {
+        applicationId 'com.webjuarez.miasesorautomotriz'
+        minSdkVersion 16
+        targetSdkVersion 23
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.txt'
+        }
+    }
+    productFlavors {
+    }
+}
+
+dependencies {
+    compile 'com.pushbots:pushbots-lib:2.0.13@aar'
+    compile files('libs/Parse-1.3.0.jar')
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    testCompile 'junit:junit:4.12'
+    compile 'com.android.support:appcompat-v7:23.1.1'
+    compile 'com.google.android.gms:play-services:8.4.0'
+    compile 'com.google.android.gms:play-services-ads:8.4.0'
+    compile 'com.google.android.gms:play-services-identity:8.4.0'
+    compile 'com.google.android.gms:play-services-gcm:8.4.0'
+    compile project(':volley')
+
+}

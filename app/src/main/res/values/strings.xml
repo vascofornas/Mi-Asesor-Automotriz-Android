@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, ParseStarterProjectActivity!</string>
+    <string name="app_name">Mi Asesor Automotriz</string>
+    <string name="Username">Usuario</string>
+    <string name="Password">Contraseña</string>
+    <string name="LoginBtn">Entrar</string>
+    <string name="SignupBtn">Registrarse</string>
+    <string name="LogoutBtn">Salir</string>
+    <string name="SeguirBtn">Continuar</string>
+    <string name="SeguirBtnFoto">Continuar y añadir Fotografía</string>
+    <string name="CancelarBtn">Cancelar</string>
+    <string name="LoginSin">Entrar sin registrar</string>
+    <string name="TituloCitaSin">CITA A SERVICIO</string>
+    <string name="NombreCliente">Nombre</string>
+    <string name="EmailCliente">Email</string>
+
+    <string name="CelularCliente">Celular</string>
+    <string name="TelCliente">Teléfono</string>
+    <string name="CitaButton">Crear Cita a Servicio</string>
+    <string name="CostosButton">Pregúnteme el Costo de Servicio</string>
+    <string name="Welcome">Bienvenid@ a la App de Pedro Villarejo!</string>
+    <string name="CrearCuenta">(Es recomendable crear una cuenta de usuario para mantener un histórico de sus citas a servicio y vehículos)</string>
+    <string name="CrearCuentaButton">Crear Cuenta de Usuario</string>
+    <string name="CrearCita">(Puede crear una cita a servicio sin registrarse, pero no se mantendrá un histórico de la cita)</string>
+    <string name="ConsultaCosto">(Puede preguntar el costo de servicio sin registrarse, pero no se mantendrá un histórico de sus datos)</string>
+
+
+
+</resources>

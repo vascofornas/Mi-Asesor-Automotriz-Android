@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<navigationModel
+    ns="http://schemas.android.com?import=com.android.tools.idea.editors.navigation.model.*">
+    <locations class="java.util.ArrayList">
+        <statePointEntry>
+            <state class="com.android.tools.idea.editors.navigation.model.ActivityState"
+                className="com.solinpromex.miasesorautomotriz.MainActivity" />
+            <point x="556" y="264" />
+        </statePointEntry>
+        <statePointEntry>
+            <state class="com.android.tools.idea.editors.navigation.model.ActivityState"
+                className="com.solinpromex.miasesorautomotriz.Welcome" />
+            <point x="32" y="268" />
+        </statePointEntry>
+        <statePointEntry>
+            <state class="com.android.tools.idea.editors.navigation.model.ActivityState"
+                className="com.solinpromex.miasesorautomotriz.LoginSignupActivity" />
+            <point x="1948" y="52" />
+        </statePointEntry>
+        <statePointEntry>
+            <state class="com.android.tools.idea.editors.navigation.model.ActivityState"
+                className="com.solinpromex.miasesorautomotriz.SplashScreen" />
+            <point x="900" y="212" />
+        </statePointEntry>
+    </locations>
+</navigationModel>
