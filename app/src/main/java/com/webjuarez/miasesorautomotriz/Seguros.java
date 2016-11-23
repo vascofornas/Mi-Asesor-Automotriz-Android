@@ -1,7 +1,9 @@
 package com.webjuarez.miasesorautomotriz;
 
 import android.app.Activity;
+import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.net.Uri;
 import android.os.Bundle;
 import android.util.Log;
@@ -26,6 +28,7 @@ public class Seguros extends Activity {
     String nombre, email, cel, tel;
     String recipient, subject, body;
     ImageButton homeButton, llamarButton, emailButton, citaButton,userButton, b1,b2,b3,b4,b5,b6;
+    Context context;
 
 
 
@@ -61,29 +64,17 @@ public class Seguros extends Activity {
             @Override
             public void onClick(View arg0) {
 
-                ParseQuery<ParseObject> query = ParseQuery.getQuery("datos_contacto");
-                query.whereEqualTo("tipo_contacto", "seguro06");
-                query.findInBackground(new FindCallback<ParseObject>() {
-                    public void done(List<ParseObject> scoreList, ParseException e) {
-                        if (e == null) {
-                            int len = scoreList.size();
-                            for (int i = 0; i < len; i++) {
-                                ParseObject p = scoreList.get(i);
-                                String numero = p.getString("dato_contacto");
+                SharedPreferences prefs =
+                        context.getSharedPreferences("MisPreferencias", Context.MODE_PRIVATE);
 
-                                Log.d("score", "Celular: " + numero);
+                String aseguradora6 = prefs.getString("aseguradora6", "NO HA SELECCIONADO NINGUNA WEB");
 
-                                Intent intent = new Intent(Intent.ACTION_CALL, Uri.parse("tel:" + numero));
+                Log.d("CELULAR", "CELULAR: " + aseguradora6);
+
+                Intent intent = new Intent(Intent.ACTION_CALL, Uri.parse("tel:" + aseguradora6));
+                context.startActivity(intent);
 
 
-                                startActivity(intent);
-
-                            }
-                        } else {
-                            Log.d("score", "Error: " + e.getMessage());
-                        }
-                    }
-                });
 
 
             }
@@ -100,30 +91,15 @@ public class Seguros extends Activity {
 
             @Override
             public void onClick(View arg0) {
+                SharedPreferences prefs =
+                        context.getSharedPreferences("MisPreferencias", Context.MODE_PRIVATE);
 
-                ParseQuery<ParseObject> query = ParseQuery.getQuery("datos_contacto");
-                query.whereEqualTo("tipo_contacto", "seguro05");
-                query.findInBackground(new FindCallback<ParseObject>() {
-                    public void done(List<ParseObject> scoreList, ParseException e) {
-                        if (e == null) {
-                            int len = scoreList.size();
-                            for (int i = 0; i < len; i++) {
-                                ParseObject p = scoreList.get(i);
-                                String numero = p.getString("dato_contacto");
+                String aseguradora5 = prefs.getString("aseguradora5", "NO HA SELECCIONADO NINGUNA WEB");
 
-                                Log.d("score", "Celular: " + numero);
+                Log.d("CELULAR", "CELULAR: " + aseguradora5);
 
-                                Intent intent = new Intent(Intent.ACTION_CALL, Uri.parse("tel:" + numero));
-
-
-                                startActivity(intent);
-
-                            }
-                        } else {
-                            Log.d("score", "Error: " + e.getMessage());
-                        }
-                    }
-                });
+                Intent intent = new Intent(Intent.ACTION_CALL, Uri.parse("tel:" + aseguradora5));
+                context.startActivity(intent);
 
 
             }
@@ -141,29 +117,16 @@ public class Seguros extends Activity {
             @Override
             public void onClick(View arg0) {
 
-                ParseQuery<ParseObject> query = ParseQuery.getQuery("datos_contacto");
-                query.whereEqualTo("tipo_contacto", "seguro04");
-                query.findInBackground(new FindCallback<ParseObject>() {
-                    public void done(List<ParseObject> scoreList, ParseException e) {
-                        if (e == null) {
-                            int len = scoreList.size();
-                            for (int i = 0; i < len; i++) {
-                                ParseObject p = scoreList.get(i);
-                                String numero = p.getString("dato_contacto");
+                SharedPreferences prefs =
+                        context.getSharedPreferences("MisPreferencias", Context.MODE_PRIVATE);
 
-                                Log.d("score", "Celular: " + numero);
+                String aseguradora4 = prefs.getString("aseguradora4", "NO HA SELECCIONADO NINGUNA WEB");
 
-                                Intent intent = new Intent(Intent.ACTION_CALL, Uri.parse("tel:" + numero));
+                Log.d("CELULAR", "CELULAR: " + aseguradora4);
 
+                Intent intent = new Intent(Intent.ACTION_CALL, Uri.parse("tel:" + aseguradora4));
+                context.startActivity(intent);
 
-                                startActivity(intent);
-
-                            }
-                        } else {
-                            Log.d("score", "Error: " + e.getMessage());
-                        }
-                    }
-                });
 
 
             }
@@ -181,29 +144,16 @@ public class Seguros extends Activity {
             @Override
             public void onClick(View arg0) {
 
-                ParseQuery<ParseObject> query = ParseQuery.getQuery("datos_contacto");
-                query.whereEqualTo("tipo_contacto", "seguro03");
-                query.findInBackground(new FindCallback<ParseObject>() {
-                    public void done(List<ParseObject> scoreList, ParseException e) {
-                        if (e == null) {
-                            int len = scoreList.size();
-                            for (int i = 0; i < len; i++) {
-                                ParseObject p = scoreList.get(i);
-                                String numero = p.getString("dato_contacto");
+                SharedPreferences prefs =
+                        context.getSharedPreferences("MisPreferencias", Context.MODE_PRIVATE);
 
-                                Log.d("score", "Celular: " + numero);
+                String aseguradora3 = prefs.getString("aseguradora3", "NO HA SELECCIONADO NINGUNA WEB");
 
-                                Intent intent = new Intent(Intent.ACTION_CALL, Uri.parse("tel:" + numero));
+                Log.d("CELULAR", "CELULAR: " + aseguradora3);
 
+                Intent intent = new Intent(Intent.ACTION_CALL, Uri.parse("tel:" + aseguradora3));
+                context.startActivity(intent);
 
-                                startActivity(intent);
-
-                            }
-                        } else {
-                            Log.d("score", "Error: " + e.getMessage());
-                        }
-                    }
-                });
 
 
             }
@@ -221,29 +171,16 @@ public class Seguros extends Activity {
             @Override
             public void onClick(View arg0) {
 
-                ParseQuery<ParseObject> query = ParseQuery.getQuery("datos_contacto");
-                query.whereEqualTo("tipo_contacto", "seguro02");
-                query.findInBackground(new FindCallback<ParseObject>() {
-                    public void done(List<ParseObject> scoreList, ParseException e) {
-                        if (e == null) {
-                            int len = scoreList.size();
-                            for (int i = 0; i < len; i++) {
-                                ParseObject p = scoreList.get(i);
-                                String numero = p.getString("dato_contacto");
+                SharedPreferences prefs =
+                        context.getSharedPreferences("MisPreferencias", Context.MODE_PRIVATE);
 
-                                Log.d("score", "Celular: " + numero);
+                String aseguradora2 = prefs.getString("aseguradora2", "NO HA SELECCIONADO NINGUNA WEB");
 
-                                Intent intent = new Intent(Intent.ACTION_CALL, Uri.parse("tel:" + numero));
+                Log.d("CELULAR", "CELULAR: " + aseguradora2);
 
+                Intent intent = new Intent(Intent.ACTION_CALL, Uri.parse("tel:" + aseguradora2));
+                context.startActivity(intent);
 
-                                startActivity(intent);
-
-                            }
-                        } else {
-                            Log.d("score", "Error: " + e.getMessage());
-                        }
-                    }
-                });
 
 
             }
@@ -261,29 +198,16 @@ public class Seguros extends Activity {
             @Override
             public void onClick(View arg0) {
 
-                ParseQuery<ParseObject> query = ParseQuery.getQuery("datos_contacto");
-                query.whereEqualTo("tipo_contacto", "seguro01");
-                query.findInBackground(new FindCallback<ParseObject>() {
-                    public void done(List<ParseObject> scoreList, ParseException e) {
-                        if (e == null) {
-                            int len = scoreList.size();
-                            for (int i = 0; i < len; i++) {
-                                ParseObject p = scoreList.get(i);
-                                String numero = p.getString("dato_contacto");
+                SharedPreferences prefs =
+                        context.getSharedPreferences("MisPreferencias", Context.MODE_PRIVATE);
 
-                                Log.d("score", "Celular: " + numero);
+                String aseguradora1 = prefs.getString("aseguradora1", "NO HA SELECCIONADO NINGUNA WEB");
 
-                                Intent intent = new Intent(Intent.ACTION_CALL, Uri.parse("tel:" + numero));
+                Log.d("CELULAR", "CELULAR: " + aseguradora1);
 
+                Intent intent = new Intent(Intent.ACTION_CALL, Uri.parse("tel:" + aseguradora1));
+                context.startActivity(intent);
 
-                                startActivity(intent);
-
-                            }
-                        } else {
-                            Log.d("score", "Error: " + e.getMessage());
-                        }
-                    }
-                });
 
 
             }

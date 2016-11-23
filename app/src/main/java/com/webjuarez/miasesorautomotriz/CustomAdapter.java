@@ -2,6 +2,7 @@ package com.webjuarez.miasesorautomotriz;
 
 import android.content.Context;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.net.Uri;
 import android.util.Log;
 import android.view.LayoutInflater;
@@ -200,30 +201,19 @@ public class CustomAdapter extends BaseAdapter {
 
                     //Toast.makeText(context, "Ha seleccionado LLAMAR" + result[position], Toast.LENGTH_LONG).show();
 
-                    ParseQuery<ParseObject> query = ParseQuery.getQuery("datos_contacto");
-                    query.whereEqualTo("tipo_contacto", "web_nuevos");
-                    query.findInBackground(new FindCallback<ParseObject>() {
-                        public void done(List<ParseObject> scoreList, ParseException e) {
-                            if (e == null) {
-                                int len = scoreList.size();
-                                for (int i = 0; i < len; i++) {
-                                    ParseObject p = scoreList.get(i);
-                                    String web = p.getString("dato_contacto");
+                    SharedPreferences prefs =
+                            context.getSharedPreferences("MisPreferencias", Context.MODE_PRIVATE);
 
-                                    Log.d("score", "Web: " + web);
+                    String web = prefs.getString("autos_nuevos", "NO HA SELECCIONADO NINGUNA WEB");
 
 
-                                    Intent myIntent = new Intent(context, NuevosActivity.class);
+                    Intent myIntent = new Intent(context, NuevosActivity.class);
                                     myIntent.putExtra("web", web); //Optional parameters
 
                                     context.startActivity(myIntent);
 
-                                }
-                            } else {
-                                Log.d("score", "Error: " + e.getMessage());
-                            }
-                        }
-                    });
+
+
 
 
                 }
@@ -242,27 +232,17 @@ public class CustomAdapter extends BaseAdapter {
 
 //Toast.makeText(context, "Ha seleccionado LLAMAR" + result[position], Toast.LENGTH_LONG).show();
 
-                    ParseQuery<ParseObject> query = ParseQuery.getQuery("datos_contacto");
-                    query.whereEqualTo("tipo_contacto", "cfcredit");
-                    query.findInBackground(new FindCallback<ParseObject>() {
-                        public void done(List<ParseObject> scoreList, ParseException e) {
-                            if (e == null) {
-                                int len = scoreList.size();
-                                for (int i = 0; i < len; i++) {
-                                    ParseObject p = scoreList.get(i);
-                                    String numero = p.getString("dato_contacto");
+                    SharedPreferences prefs =
+                            context.getSharedPreferences("MisPreferencias", Context.MODE_PRIVATE);
 
-                                    Log.d("score", "Celular: " + numero);
+                    String numero_financiera = prefs.getString("financiera", "NO HA SELECCIONADO NINGUNA WEB");
 
-                                    Intent intent = new Intent(Intent.ACTION_CALL, Uri.parse("tel:" + numero));
+
+
+                    Intent intent = new Intent(Intent.ACTION_CALL, Uri.parse("tel:" + numero_financiera));
                                     context.startActivity(intent);
 
-                                }
-                            } else {
-                                Log.d("score", "Error: " + e.getMessage());
-                            }
-                        }
-                    });
+
 
                 }
                 if (position == 5) {
@@ -275,20 +255,31 @@ public class CustomAdapter extends BaseAdapter {
 
                 if (position == 6) {
 
+                    SharedPreferences prefs =
+                            context.getSharedPreferences("MisPreferencias", Context.MODE_PRIVATE);
 
-                    Intent myIntent = new Intent(context, Auxilio_Vial_Mexico.class);
+                    String auxilio_vial_mex = prefs.getString("auxilio_vial_mex", "NO HA SELECCIONADO NINGUNA WEB");
 
+                    Log.d("CELULAR", "CELULAR: " + auxilio_vial_mex);
 
-                    context.startActivity(myIntent);
+                    Intent intent = new Intent(Intent.ACTION_CALL, Uri.parse("tel:" + auxilio_vial_mex));
+                    context.startActivity(intent);
 
 
                 }
                 if (position == 7) {
 
-                    Intent myIntent = new Intent(context, Auxilio_Vial_USA.class);
 
+                    SharedPreferences prefs =
+                            context.getSharedPreferences("MisPreferencias", Context.MODE_PRIVATE);
 
-                    context.startActivity(myIntent);
+                    String auxilio_vial_usa = prefs.getString("auxilio_vial_usa", "NO HA SELECCIONADO NINGUNA WEB");
+
+                    Log.d("CELULAR", "CELULAR: " + auxilio_vial_usa);
+
+                    Intent intent = new Intent(Intent.ACTION_CALL, Uri.parse("tel:" + auxilio_vial_usa));
+                    context.startActivity(intent);
+
 
                 }
 

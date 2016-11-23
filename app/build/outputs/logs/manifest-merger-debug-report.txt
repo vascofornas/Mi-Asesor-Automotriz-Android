@@ -1,0 +1,520 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml:2:1-180:12
+	package
+		ADDED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml:3:5-47
+		INJECTED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml
+	android:versionName
+		ADDED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml:5:5-30
+		INJECTED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml
+	android:versionCode
+		ADDED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml:4:5-28
+		INJECTED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml:2:11-69
+uses-sdk
+ADDED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml:7:5-9:41
+MERGED from [com.pushbots:pushbots-lib:2.0.13] C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\build\intermediates\exploded-aar\com.pushbots\pushbots-lib\2.0.13\AndroidManifest.xml:7:5-9:41
+MERGED from [com.google.android.gms:play-services:8.4.0] C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-ads:8.4.0] C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\8.4.0\AndroidManifest.xml:23:5-42
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:23.1.1] C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-analytics:8.4.0] C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-appindexing:8.4.0] C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:8.4.0] C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-appinvite:8.4.0] C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-appstate:8.4.0] C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appstate\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-auth:8.4.0] C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\8.4.0\AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-cast:8.4.0] C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:mediarouter-v7:23.0.0] C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\23.0.0\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:appcompat-v7:23.1.1] C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\AndroidManifest.xml:20:5-43
+MERGED from [com.google.android.gms:play-services-drive:8.4.0] C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-fitness:8.4.0] C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-location:8.4.0] C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-maps:8.4.0] C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.4.0\AndroidManifest.xml:26:5-42
+MERGED from [com.google.android.gms:play-services-games:8.4.0] C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-games\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-gcm:8.4.0] C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-measurement:8.4.0] C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-identity:8.4.0] C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-nearby:8.4.0] C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-panorama:8.4.0] C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-panorama\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-plus:8.4.0] C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-safetynet:8.4.0] C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-safetynet\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-vision:8.4.0] C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-vision\8.4.0\AndroidManifest.xml:4:5-42
+MERGED from [com.google.android.gms:play-services-wallet:8.4.0] C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\8.4.0\AndroidManifest.xml:19:5-42
+MERGED from [com.google.android.gms:play-services-wearable:8.4.0] C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\8.4.0\AndroidManifest.xml:18:5-42
+MERGED from [com.android.volley:volley:unspecified] C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\build\intermediates\exploded-aar\com.android.volley\volley\unspecified\AndroidManifest.xml:7:5-43
+	android:targetSdkVersion
+		ADDED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml:9:9-38
+		INJECTED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		ADDED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml:8:9-35
+		INJECTED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml:11:5-67
+MERGED from [com.google.android.gms:play-services-ads:8.4.0] C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\8.4.0\AndroidManifest.xml:20:5-66
+MERGED from [com.google.android.gms:play-services-analytics:8.4.0] C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\8.4.0\AndroidManifest.xml:21:5-67
+MERGED from [com.google.android.gms:play-services-appinvite:8.4.0] C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\8.4.0\AndroidManifest.xml:19:5-67
+MERGED from [com.google.android.gms:play-services-maps:8.4.0] C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.4.0\AndroidManifest.xml:21:5-66
+MERGED from [com.google.android.gms:play-services-gcm:8.4.0] C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\8.4.0\AndroidManifest.xml:22:5-67
+MERGED from [com.google.android.gms:play-services-measurement:8.4.0] C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.4.0\AndroidManifest.xml:21:5-67
+	android:name
+		ADDED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml:11:22-64
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml:12:5-75
+	android:name
+		ADDED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml:12:22-72
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml:13:5-78
+MERGED from [com.google.android.gms:play-services-ads:8.4.0] C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\8.4.0\AndroidManifest.xml:21:5-78
+MERGED from [com.google.android.gms:play-services-analytics:8.4.0] C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\8.4.0\AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-maps:8.4.0] C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.4.0\AndroidManifest.xml:20:5-78
+MERGED from [com.google.android.gms:play-services-measurement:8.4.0] C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.4.0\AndroidManifest.xml:22:5-79
+MERGED from [com.google.android.gms:play-services-nearby:8.4.0] C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\8.4.0\AndroidManifest.xml:19:5-79
+	android:name
+		ADDED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml:13:22-76
+uses-permission#android.permission.CALL_PHONE
+ADDED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml:14:5-69
+	android:name
+		ADDED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml:14:22-66
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml:15:5-79
+	android:name
+		ADDED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml:15:22-76
+uses-permission#android.permission.SEND_SMS
+ADDED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml:16:5-67
+	android:name
+		ADDED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml:16:22-64
+uses-permission#android.permission.VIBRATE
+ADDED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml:17:5-66
+	android:name
+		ADDED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml:17:22-63
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml:18:5-71
+	android:name
+		ADDED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml:18:22-68
+uses-permission#android.permission.WAKE_LOCK
+ADDED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml:19:5-68
+MERGED from [com.google.android.gms:play-services-measurement:8.4.0] C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.4.0\AndroidManifest.xml:24:5-67
+	android:name
+		ADDED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml:19:22-65
+permission#com.webjuarez.miasesorautomotriz.permission.C2D_MESSAGE
+ADDED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml:20:5-126
+	android:protectionLevel
+		ADDED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml:20:88-123
+	android:name
+		ADDED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml:20:17-87
+uses-permission#com.webjuarez.miasesorautomotriz.permission.C2D_MESSAGE
+ADDED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml:21:5-95
+	android:name
+		ADDED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml:21:22-92
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml:22:5-82
+MERGED from [com.google.android.gms:play-services-gcm:8.4.0] C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\8.4.0\AndroidManifest.xml:21:5-82
+	android:name
+		ADDED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml:22:22-79
+android:uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml:27:5-89
+	android:name
+		ADDED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml:27:30-86
+android:uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml:28:5-88
+	android:name
+		ADDED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml:28:30-85
+application
+ADDED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml:30:5-178:19
+MERGED from [com.pushbots:pushbots-lib:2.0.13] C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\build\intermediates\exploded-aar\com.pushbots\pushbots-lib\2.0.13\AndroidManifest.xml:11:5-20
+MERGED from [com.google.android.gms:play-services:8.4.0] C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services\8.4.0\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-ads:8.4.0] C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\8.4.0\AndroidManifest.xml:24:5-32:19
+MERGED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:23.1.1] C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-analytics:8.4.0] C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\8.4.0\AndroidManifest.xml:24:5-20
+MERGED from [com.google.android.gms:play-services-appindexing:8.4.0] C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\8.4.0\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-appinvite:8.4.0] C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\8.4.0\AndroidManifest.xml:20:5-30:19
+MERGED from [com.google.android.gms:play-services-appstate:8.4.0] C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appstate\8.4.0\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-auth:8.4.0] C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\8.4.0\AndroidManifest.xml:20:5-32:19
+MERGED from [com.google.android.gms:play-services-cast:8.4.0] C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast\8.4.0\AndroidManifest.xml:19:5-20
+MERGED from [com.android.support:mediarouter-v7:23.0.0] C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\build\intermediates\exploded-aar\com.android.support\mediarouter-v7\23.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:23.1.1] C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.1.1\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.gms:play-services-drive:8.4.0] C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\8.4.0\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-fitness:8.4.0] C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\8.4.0\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-location:8.4.0] C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\8.4.0\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-maps:8.4.0] C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.4.0\AndroidManifest.xml:27:5-20
+MERGED from [com.google.android.gms:play-services-games:8.4.0] C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-games\8.4.0\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-gcm:8.4.0] C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\8.4.0\AndroidManifest.xml:24:5-20
+MERGED from [com.google.android.gms:play-services-measurement:8.4.0] C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.4.0\AndroidManifest.xml:26:5-46:19
+MERGED from [com.google.android.gms:play-services-identity:8.4.0] C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\8.4.0\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-nearby:8.4.0] C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\8.4.0\AndroidManifest.xml:20:5-20
+MERGED from [com.google.android.gms:play-services-panorama:8.4.0] C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-panorama\8.4.0\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-plus:8.4.0] C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\8.4.0\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-safetynet:8.4.0] C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-safetynet\8.4.0\AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-vision:8.4.0] C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-vision\8.4.0\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-wearable:8.4.0] C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\8.4.0\AndroidManifest.xml:19:5-20
+MERGED from [com.android.volley:volley:unspecified] C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\build\intermediates\exploded-aar\com.android.volley\volley\unspecified\AndroidManifest.xml:9:5-20
+	android:label
+		ADDED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml:33:9-41
+	android:icon
+		ADDED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml:32:9-45
+	android:name
+		ADDED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml:31:9-41
+meta-data#com.google.android.geo.API_KEY
+ADDED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml:43:9-45:55
+	android:value
+		ADDED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml:45:13-52
+	android:name
+		ADDED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml:44:13-58
+activity#com.webjuarez.miasesorautomotriz.SplashScreen
+ADDED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml:47:9-60:20
+	android:screenOrientation
+		ADDED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml:50:13-49
+	android:label
+		ADDED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml:49:13-45
+	android:name
+		ADDED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml:48:13-41
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml:51:13-55:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml:52:17-69
+	android:name
+		ADDED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml:52:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml:54:17-77
+	android:name
+		ADDED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml:54:27-74
+intent-filter#android.intent.category.DEFAULT+com.webjuarez.miasesorautomotriz.MESSAGE
+ADDED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml:56:13-59:29
+action#com.webjuarez.miasesorautomotriz.MESSAGE
+ADDED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml:57:17-83
+	android:name
+		ADDED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml:57:25-80
+category#android.intent.category.DEFAULT
+ADDED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml:58:17-76
+	android:name
+		ADDED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml:58:27-73
+activity#com.webjuarez.miasesorautomotriz.MainActivity
+ADDED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml:61:9-64:52
+	android:screenOrientation
+		ADDED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml:64:13-49
+	android:configChanges
+		ADDED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml:63:13-48
+	android:name
+		ADDED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml:62:13-41
+activity#com.webjuarez.miasesorautomotriz.Welcome
+ADDED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml:65:9-68:52
+	android:screenOrientation
+		ADDED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml:68:13-49
+	android:configChanges
+		ADDED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml:67:13-48
+	android:name
+		ADDED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml:66:13-36
+activity#com.webjuarez.miasesorautomotriz.WelcomeNoLogin
+ADDED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml:69:9-72:52
+	android:screenOrientation
+		ADDED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml:72:13-49
+	android:configChanges
+		ADDED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml:71:13-48
+	android:name
+		ADDED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml:70:13-43
+activity#com.webjuarez.miasesorautomotriz.CitaServicio_NoLogin_1
+ADDED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml:73:9-76:52
+	android:screenOrientation
+		ADDED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml:76:13-49
+	android:configChanges
+		ADDED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml:75:13-48
+	android:name
+		ADDED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml:74:13-51
+activity#com.webjuarez.miasesorautomotriz.CitaServicio_NoLogin_2
+ADDED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml:77:9-80:52
+	android:screenOrientation
+		ADDED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml:80:13-49
+	android:configChanges
+		ADDED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml:79:13-48
+	android:name
+		ADDED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml:78:13-51
+activity#com.webjuarez.miasesorautomotriz.CitaServicio_NoLogin_3
+ADDED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml:81:9-84:52
+	android:screenOrientation
+		ADDED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml:84:13-49
+	android:configChanges
+		ADDED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml:83:13-48
+	android:name
+		ADDED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml:82:13-51
+activity#com.webjuarez.miasesorautomotriz.CitaServicio_NoLogin_33
+ADDED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml:85:9-88:52
+	android:screenOrientation
+		ADDED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml:88:13-49
+	android:configChanges
+		ADDED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml:87:13-48
+	android:name
+		ADDED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml:86:13-52
+activity#com.webjuarez.miasesorautomotriz.CitaServicio_NoLogin_4
+ADDED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml:89:9-92:52
+	android:screenOrientation
+		ADDED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml:92:13-49
+	android:configChanges
+		ADDED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml:91:13-48
+	android:name
+		ADDED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml:90:13-51
+activity#com.webjuarez.miasesorautomotriz.PrestigeActivity
+ADDED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml:93:9-96:52
+	android:screenOrientation
+		ADDED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml:96:13-49
+	android:configChanges
+		ADDED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml:95:13-48
+	android:name
+		ADDED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml:94:13-45
+activity#com.webjuarez.miasesorautomotriz.CostoServicio_NoLogin_1
+ADDED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml:97:9-100:52
+	android:screenOrientation
+		ADDED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml:100:13-49
+	android:configChanges
+		ADDED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml:99:13-48
+	android:name
+		ADDED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml:98:13-52
+activity#com.webjuarez.miasesorautomotriz.CostoServicio_NoLogin_2
+ADDED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml:101:9-104:52
+	android:screenOrientation
+		ADDED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml:104:13-49
+	android:configChanges
+		ADDED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml:103:13-48
+	android:name
+		ADDED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml:102:13-52
+activity#com.webjuarez.miasesorautomotriz.CostoServicio_NoLogin_3
+ADDED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml:105:9-108:52
+	android:screenOrientation
+		ADDED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml:108:13-49
+	android:configChanges
+		ADDED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml:107:13-48
+	android:name
+		ADDED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml:106:13-52
+activity#com.webjuarez.miasesorautomotriz.CitaServicio_Foto_1
+ADDED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml:109:9-112:52
+	android:screenOrientation
+		ADDED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml:112:13-49
+	android:configChanges
+		ADDED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml:111:13-48
+	android:name
+		ADDED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml:110:13-48
+activity#com.webjuarez.miasesorautomotriz.NuevosActivity
+ADDED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml:113:9-116:52
+	android:screenOrientation
+		ADDED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml:116:13-49
+	android:configChanges
+		ADDED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml:115:13-48
+	android:name
+		ADDED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml:114:13-43
+activity#com.webjuarez.miasesorautomotriz.Tramites_Online_1
+ADDED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml:117:9-120:48
+	android:screenOrientation
+		ADDED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml:120:9-45
+	android:configChanges
+		ADDED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml:119:9-44
+	android:name
+		ADDED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml:118:9-42
+activity#com.webjuarez.miasesorautomotriz.Tramites_Online_2
+ADDED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml:121:9-124:52
+	android:screenOrientation
+		ADDED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml:124:13-49
+	android:configChanges
+		ADDED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml:123:13-48
+	android:name
+		ADDED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml:122:13-46
+activity#com.webjuarez.miasesorautomotriz.Tramites_Online_3
+ADDED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml:125:9-128:52
+	android:screenOrientation
+		ADDED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml:128:13-49
+	android:configChanges
+		ADDED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml:127:13-48
+	android:name
+		ADDED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml:126:13-46
+activity#com.webjuarez.miasesorautomotriz.Auxilio_Vial_Mexico
+ADDED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml:129:9-132:52
+	android:screenOrientation
+		ADDED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml:132:13-49
+	android:configChanges
+		ADDED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml:131:13-48
+	android:name
+		ADDED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml:130:13-48
+activity#com.webjuarez.miasesorautomotriz.Auxilio_Vial_USA
+ADDED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml:133:9-136:52
+	android:screenOrientation
+		ADDED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml:136:13-49
+	android:configChanges
+		ADDED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml:135:13-48
+	android:name
+		ADDED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml:134:13-45
+activity#com.webjuarez.miasesorautomotriz.Seguros
+ADDED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml:137:9-140:48
+	android:screenOrientation
+		ADDED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml:140:9-45
+	android:configChanges
+		ADDED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml:139:9-44
+	android:name
+		ADDED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml:138:9-32
+activity#com.webjuarez.miasesorautomotriz.Agencia
+ADDED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml:141:9-144:48
+	android:screenOrientation
+		ADDED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml:144:9-45
+	android:configChanges
+		ADDED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml:143:9-44
+	android:name
+		ADDED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml:142:9-32
+activity#com.webjuarez.miasesorautomotriz.Inicio
+ADDED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml:145:9-148:52
+	android:screenOrientation
+		ADDED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml:148:13-49
+	android:configChanges
+		ADDED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml:147:13-48
+	android:name
+		ADDED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml:146:13-35
+activity#com.webjuarez.miasesorautomotriz.Asesor
+ADDED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml:149:9-152:52
+	android:screenOrientation
+		ADDED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml:152:13-49
+	android:configChanges
+		ADDED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml:151:13-48
+	android:name
+		ADDED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml:150:13-35
+activity#com.webjuarez.miasesorautomotriz.MiAuto
+ADDED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml:153:9-156:52
+	android:screenOrientation
+		ADDED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml:156:13-49
+	android:configChanges
+		ADDED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml:155:13-48
+	android:name
+		ADDED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml:154:13-35
+activity#com.webjuarez.miasesorautomotriz.MiAutoEditar
+ADDED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml:157:9-160:48
+	android:screenOrientation
+		ADDED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml:160:9-45
+	android:configChanges
+		ADDED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml:159:9-44
+	android:name
+		ADDED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml:158:9-37
+activity#com.webjuarez.miasesorautomotriz.MiAutoEditarSegunda
+ADDED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml:161:9-164:52
+	android:screenOrientation
+		ADDED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml:164:13-49
+	android:configChanges
+		ADDED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml:163:13-48
+	android:name
+		ADDED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml:162:13-48
+receiver#com.pushbots.google.gcm.GCMBroadcastReceiver
+ADDED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml:165:9-175:20
+	android:permission
+		ADDED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml:167:13-73
+	android:name
+		ADDED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml:166:13-72
+intent-filter#com.google.android.c2dm.intent.RECEIVE+com.google.android.c2dm.intent.REGISTRATION+com.webjuarez.miasesorautomotriz
+ADDED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml:168:13-174:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml:170:17-81
+	android:name
+		ADDED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml:170:25-78
+action#com.google.android.c2dm.intent.REGISTRATION
+ADDED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml:172:17-86
+	android:name
+		ADDED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml:172:25-83
+category#com.webjuarez.miasesorautomotriz
+ADDED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml:173:17-77
+	android:name
+		ADDED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml:173:27-74
+receiver#com.pushbots.push.DefaultPushHandler
+ADDED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml:176:9-73
+	android:name
+		ADDED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml:176:19-70
+service#com.pushbots.push.GCMIntentService
+ADDED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml:177:9-70
+	android:name
+		ADDED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml:177:18-67
+activity#com.google.android.gms.ads.AdActivity
+ADDED from [com.google.android.gms:play-services-ads:8.4.0] C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\8.4.0\AndroidManifest.xml:26:9-29:64
+	android:configChanges
+		ADDED from [com.google.android.gms:play-services-ads:8.4.0] C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\8.4.0\AndroidManifest.xml:28:13-122
+	android:theme
+		ADDED from [com.google.android.gms:play-services-ads:8.4.0] C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\8.4.0\AndroidManifest.xml:29:13-61
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads:8.4.0] C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\8.4.0\AndroidManifest.xml:27:13-65
+activity#com.google.android.gms.ads.purchase.InAppPurchaseActivity
+ADDED from [com.google.android.gms:play-services-ads:8.4.0] C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\8.4.0\AndroidManifest.xml:30:9-31:52
+	android:theme
+		ADDED from [com.google.android.gms:play-services-ads:8.4.0] C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\8.4.0\AndroidManifest.xml:31:13-50
+	android:name
+		ADDED from [com.google.android.gms:play-services-ads:8.4.0] C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\8.4.0\AndroidManifest.xml:30:19-91
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:8.4.0] C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\8.4.0\AndroidManifest.xml:22:13-58
+activity#com.google.android.gms.appinvite.PreviewActivity
+ADDED from [com.google.android.gms:play-services-appinvite:8.4.0] C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\8.4.0\AndroidManifest.xml:21:9-29:20
+	android:exported
+		ADDED from [com.google.android.gms:play-services-appinvite:8.4.0] C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\8.4.0\AndroidManifest.xml:23:17-40
+	android:theme
+		ADDED from [com.google.android.gms:play-services-appinvite:8.4.0] C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\8.4.0\AndroidManifest.xml:24:17-63
+	android:name
+		ADDED from [com.google.android.gms:play-services-appinvite:8.4.0] C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\8.4.0\AndroidManifest.xml:22:17-48
+intent-filter#android.intent.category.DEFAULT+com.google.android.gms.appinvite.ACTION_PREVIEW
+ADDED from [com.google.android.gms:play-services-appinvite:8.4.0] C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\8.4.0\AndroidManifest.xml:25:13-28:29
+action#com.google.android.gms.appinvite.ACTION_PREVIEW
+ADDED from [com.google.android.gms:play-services-appinvite:8.4.0] C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\8.4.0\AndroidManifest.xml:26:17-89
+	android:name
+		ADDED from [com.google.android.gms:play-services-appinvite:8.4.0] C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appinvite\8.4.0\AndroidManifest.xml:26:25-87
+activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
+ADDED from [com.google.android.gms:play-services-auth:8.4.0] C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\8.4.0\AndroidManifest.xml:21:9-24:46
+	android:excludeFromRecents
+		ADDED from [com.google.android.gms:play-services-auth:8.4.0] C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\8.4.0\AndroidManifest.xml:23:19-52
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:8.4.0] C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\8.4.0\AndroidManifest.xml:24:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-auth:8.4.0] C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\8.4.0\AndroidManifest.xml:22:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:8.4.0] C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\8.4.0\AndroidManifest.xml:21:19-72
+service#com.google.android.gms.auth.api.signin.RevocationBoundService
+ADDED from [com.google.android.gms:play-services-auth:8.4.0] C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\8.4.0\AndroidManifest.xml:28:9-31:110
+	android:exported
+		ADDED from [com.google.android.gms:play-services-auth:8.4.0] C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\8.4.0\AndroidManifest.xml:30:13-36
+	android:permission
+		ADDED from [com.google.android.gms:play-services-auth:8.4.0] C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\8.4.0\AndroidManifest.xml:31:13-107
+	android:name
+		ADDED from [com.google.android.gms:play-services-auth:8.4.0] C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-auth\8.4.0\AndroidManifest.xml:29:13-62
+uses-feature#0x00020000
+ADDED from [com.google.android.gms:play-services-maps:8.4.0] C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.4.0\AndroidManifest.xml:22:5-24:33
+	android:glEsVersion
+		ADDED from [com.google.android.gms:play-services-maps:8.4.0] C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.4.0\AndroidManifest.xml:23:8-40
+	android:required
+		ADDED from [com.google.android.gms:play-services-maps:8.4.0] C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\8.4.0\AndroidManifest.xml:24:8-31
+provider#com.google.android.gms.measurement.AppMeasurementContentProvider
+ADDED from [com.google.android.gms:play-services-measurement:8.4.0] C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.4.0\AndroidManifest.xml:28:7-31:37
+	android:authorities
+		ADDED from [com.google.android.gms:play-services-measurement:8.4.0] C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.4.0\AndroidManifest.xml:29:11-76
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:8.4.0] C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.4.0\AndroidManifest.xml:31:11-35
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:8.4.0] C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.4.0\AndroidManifest.xml:30:11-90
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.android.gms:play-services-measurement:8.4.0] C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.4.0\AndroidManifest.xml:33:7-39:18
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:8.4.0] C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.4.0\AndroidManifest.xml:35:11-33
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:8.4.0] C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.4.0\AndroidManifest.xml:34:11-83
+intent-filter#com.google.android.gms.measurement.UPLOAD
+ADDED from [com.google.android.gms:play-services-measurement:8.4.0] C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.4.0\AndroidManifest.xml:36:9-38:25
+action#com.google.android.gms.measurement.UPLOAD
+ADDED from [com.google.android.gms:play-services-measurement:8.4.0] C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.4.0\AndroidManifest.xml:37:11-77
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:8.4.0] C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.4.0\AndroidManifest.xml:37:19-75
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.android.gms:play-services-measurement:8.4.0] C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.4.0\AndroidManifest.xml:41:7-44:37
+	android:enabled
+		ADDED from [com.google.android.gms:play-services-measurement:8.4.0] C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.4.0\AndroidManifest.xml:43:11-33
+	android:exported
+		ADDED from [com.google.android.gms:play-services-measurement:8.4.0] C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.4.0\AndroidManifest.xml:44:11-35
+	android:name
+		ADDED from [com.google.android.gms:play-services-measurement:8.4.0] C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-measurement\8.4.0\AndroidManifest.xml:42:11-82

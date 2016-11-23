@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<instant-run
+    abi="armeabi-v7a,armeabi"
+    api-level="19"
+    density="xhdpi"
+    format="8"
+    plugin-version="2.2.2"
+    timestamp="27292504783035"
+    token="5610948756556992910"
+    verifier="FIELD_ADDED" >
+
+    <task
+        name="javac"
+        duration="3923" />
+    <task
+        name="instant-run-dex"
+        duration="0" />
+    <task
+        name="instant-run-transform"
+        duration="171" />
+    <task
+        name="verifier"
+        duration="33" />
+
+    <artifact
+        location="C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\build\outputs\apk\app-debug.apk"
+        type="MAIN" />
+
+    <build
+        timestamp="27292504783035"
+        verifier="FIELD_ADDED" >
+        <artifact
+            location="C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\build\outputs\apk\app-debug.apk"
+            type="MAIN" />
+    </build>
+
+</instant-run>

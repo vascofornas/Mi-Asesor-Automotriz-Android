@@ -21,6 +21,16 @@ if($_SERVER['REQUEST_METHOD']=='GET'){
 			"nombre_agencia"=>$res['nombre_agencia'],
  			"direccion_agencia"=>$res['direccion_agencia'],
 			 "codigo_agencia"=>$res['codigo_agencia'],
+			"autos_nuevos"=>$res['autos_nuevos'],
+			"financiera"=>$res['financiera'],
+			"auxilio_vial_mex"=>$res['auxilio_vial_mex'],
+			"auxilio_vial_usa"=>$res['auxilio_vial_usa'],
+			"aseguradora_inbursa"=>$res['aseguradora_inbursa'],
+			"aseguradora_gnp"=>$res['aseguradora_gnp'],
+			"aseguradora_assistance"=>$res['aseguradora_assistance'],
+			"aseguradora_mapfre"=>$res['aseguradora_mapfre'],
+			"aseguradora_qualitas"=>$res['aseguradora_qualitas'],
+			"aseguradora_atlas"=>$res['aseguradora_atlas'],
 			"google_play_agencia"=>$res['google_play_agencia']
 	)
 			);

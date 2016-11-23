@@ -290,8 +290,8 @@ public class MiAutoEditar extends Activity  {
 
 
 
-                                subject = "Android App de PEDRO VILLAREJO";
-                                body = "Te recomiendo que descargues la Android App de PEDRO VILLAREJO. Disponible en :" + google_play_agencia;
+                                subject = "Android App Mi Asesor Automotriz";
+                                body = "Te recomiendo que descargues la Android App Mi Asesor Automotriz. Disponible en :" + google_play_agencia;
                                 recipient = google_play_agencia;
                                 Intent enviar = new Intent(Intent.ACTION_SEND, Uri.parse("mailto:"));
                                 // prompts email clients only

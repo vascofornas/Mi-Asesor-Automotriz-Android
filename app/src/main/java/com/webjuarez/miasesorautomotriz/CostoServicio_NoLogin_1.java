@@ -296,8 +296,8 @@ public class CostoServicio_NoLogin_1 extends Activity {
             @Override
             public void onClick(View arg0) {
 
-                EditText e = (EditText) findViewById(R.id.editemail);
-                EditText n = (EditText) findViewById(R.id.editnombre);
+                EditText e = (EditText) findViewById(R.id.edithora);
+                EditText n = (EditText) findViewById(R.id.editfecha);
                 String email = e.getText().toString();
 
                 if (n.getText().length() == 0) {
@@ -322,8 +322,8 @@ public class CostoServicio_NoLogin_1 extends Activity {
                 {
 
 
-                nombreTV = (EditText) findViewById(R.id.editnombre);
-                emailTV = (EditText) findViewById(R.id.editemail);
+                nombreTV = (EditText) findViewById(R.id.editfecha);
+                emailTV = (EditText) findViewById(R.id.edithora);
                 celTV = (EditText) findViewById(R.id.editcelular);
                 telTV = (EditText) findViewById(R.id.edittel);
 

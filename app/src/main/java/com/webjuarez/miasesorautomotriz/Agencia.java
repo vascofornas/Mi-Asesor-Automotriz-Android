@@ -10,6 +10,7 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -40,6 +41,18 @@ public class Agencia extends Activity  {
     private String nombre_agencia;
     private String id_agencia;
     private String google_play_agencia;
+    private String autos_nuevos;
+    private String financiera;
+    private String auxilio_vial_mex;
+    private String auxilio_vial_usa;
+    private String aseguradora1;
+    private String aseguradora2;
+    private String aseguradora3;
+    private String aseguradora4;
+    private String aseguradora5;
+    private String aseguradora6;
+
+
 
 
 
@@ -114,6 +127,7 @@ public class Agencia extends Activity  {
         String nombre = "";
         String direccion = "";
         codigo_agencia = "";
+        autos_nuevos = "";
         id_agencia = "";
         try {
             JSONObject jsonObject = new JSONObject(response);
@@ -124,6 +138,16 @@ public class Agencia extends Activity  {
             id_agencia = collegeData.getString(Config.KEY_ID);
             google_play_agencia = collegeData.getString(Config.KEY_GP);
             codigo_agencia = collegeData.getString(Config.KEY_VC);
+            financiera = collegeData.getString(Config.KEY_FIN);
+            autos_nuevos = collegeData.getString(Config.KEY_AN);
+            auxilio_vial_mex = collegeData.getString(Config.KEY_MEX);
+            auxilio_vial_usa = collegeData.getString(Config.KEY_USA);
+            aseguradora1 = collegeData.getString(Config.KEY_ASE_1);
+            aseguradora2 = collegeData.getString(Config.KEY_ASE_2);
+            aseguradora3 = collegeData.getString(Config.KEY_ASE_3);
+            aseguradora4 = collegeData.getString(Config.KEY_ASE_4);
+            aseguradora5 = collegeData.getString(Config.KEY_ASE_5);
+            aseguradora6 = collegeData.getString(Config.KEY_ASE_6);
         } catch (JSONException e) {
             e.printStackTrace();
         }
@@ -159,7 +183,22 @@ public class Agencia extends Activity  {
                 editor.putString("nombre_agencia", nombre_agencia);
                 editor.putString("id_agencia", id_agencia);
                 editor.putString("google_play_agencia", google_play_agencia);
+                editor.putString("autos_nuevos", autos_nuevos);
+                editor.putString("financiera", financiera);
+                editor.putString("auxilio_vial_mex", auxilio_vial_mex);
+                editor.putString("aseguradora1", aseguradora1);
+                editor.putString("aseguradora2", aseguradora2);
+                editor.putString("aseguradora3", aseguradora3);
+                editor.putString("aseguradora4", aseguradora4);
+                editor.putString("aseguradora1", aseguradora5);
+                editor.putString("aseguradora6", aseguradora6);
 
+
+
+                Log.d("CELULAR", "M E X : " + auxilio_vial_mex);
+
+
+                editor.putString("auxilio_vial_usa", auxilio_vial_usa);
                 editor.commit();
                 Intent intent = new Intent(Agencia.this, Asesor.class);
                 startActivity(intent);

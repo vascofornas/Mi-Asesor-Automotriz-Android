@@ -81,11 +81,11 @@ public class MiAuto extends Activity  {
         nombreAsesor = (TextView) findViewById(R.id.nombreAsesor);
         nombreAsesor.setText("Asesor: "+nombre_asesor+' '+apellidos_asesor);
 
-        String modelo_mi_auto = prefs.getString("modelo_mi_auto", "MODELO");
-        String ano_mi_auto = prefs.getString("ano_mi_auto", "AÑO");
-        String placas_mi_auto = prefs.getString("placas_mi_auto", "PLACAS");
-        String serie_mi_auto = prefs.getString("serie_mi_auto", "NUM. DE SERIE");
-        String poliza_mi_auto = prefs.getString("poliza_mi_auto", "NUM. DE POLIZA");
+        String modelo_mi_auto = prefs.getString("modelo_mi_auto", "");
+        String ano_mi_auto = prefs.getString("ano_mi_auto", "");
+        String placas_mi_auto = prefs.getString("placas_mi_auto", "");
+        String serie_mi_auto = prefs.getString("serie_mi_auto", "");
+        String poliza_mi_auto = prefs.getString("poliza_mi_auto", "");
 
         modelo = (TextView) findViewById(R.id.txt_mi_modelo);
         ano = (TextView) findViewById(R.id.txt_mi_ano);
@@ -314,7 +314,7 @@ public class MiAuto extends Activity  {
 
     public void addListenerCompartirButton() {
 
-        userButton = (ImageButton) findViewById(R.id.userButton);
+        userButton = (ImageButton) findViewById(R.id.citaButton);
 
         userButton.setOnClickListener(new View.OnClickListener() {
 
@@ -325,8 +325,8 @@ public class MiAuto extends Activity  {
 
 
 
-                                subject = "Android App de PEDRO VILLAREJO";
-                                body = "Te recomiendo que descargues la Android App de PEDRO VILLAREJO. Disponible en :" + google_play_agencia;
+                                subject = "Android App Mi Asesor Automotriz";
+                                body = "Te recomiendo que descargues la Android App  Mi Asesor Automotriz. Disponible en :" + google_play_agencia;
                                 recipient = google_play_agencia;
                                 Intent enviar = new Intent(Intent.ACTION_SEND, Uri.parse("mailto:"));
                                 // prompts email clients only

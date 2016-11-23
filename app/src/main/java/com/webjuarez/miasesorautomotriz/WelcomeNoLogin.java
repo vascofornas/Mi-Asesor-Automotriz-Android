@@ -41,8 +41,8 @@ public class WelcomeNoLogin extends Activity {
     GridView gv;
     Context context;
     ArrayList prgmName;
-    ImageButton  llamarButton, emailButton, citaButton, userButton;
-    public static String[] prgmNameList = {"Mi Auto","Citas a Servicio", "Autos Nuevos",  "Costo de Servicios", "CF Credit", "Trámites Online", "Auxilio Vial MEX", "Auxilio Vial USA", "Aseguradoras"};
+    ImageButton  llamarButton, emailButton, smsButton, compartirButton;
+    public static String[] prgmNameList = {"Mi Auto","Citas a Servicio", "Autos Nuevos",  "Costo de Servicios", "Financiera", "Trámites Online", "Auxilio Vial MEX", "Auxilio Vial USA", "Aseguradoras"};
     public static int[] prgmImages = {R.mipmap.miauto, R.mipmap.citas, R.mipmap.nuevos, R.mipmap.tool, R.mipmap.cfcredit, R.mipmap.mapa, R.mipmap.avisos, R.mipmap.avisos, R.mipmap.seguros};
 
     @Override
@@ -69,8 +69,8 @@ public class WelcomeNoLogin extends Activity {
 
         addListenerLlamarButton();
         addListenerEmailButton();
-        addListenerCitaButton();
-        addListenerUserButton();
+        addListenerSMSButton();
+        addListenerCompartirButton();
 
 
     }
@@ -79,62 +79,51 @@ public class WelcomeNoLogin extends Activity {
 
 
 
-    public void addListenerUserButton() {
+    public void addListenerSMSButton() {
 
-        userButton = (ImageButton) findViewById(R.id.userButton);
+        smsButton = (ImageButton) findViewById(R.id.smsButton);
 
-        userButton.setOnClickListener(new OnClickListener() {
+        smsButton.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View arg0) {
-                ParseQuery<ParseObject> query = ParseQuery.getQuery("datos_contacto");
-                query.whereEqualTo("tipo_contacto", "celular_sms");
-                query.findInBackground(new FindCallback<ParseObject>() {
-                    public void done(List<ParseObject> scoreList, ParseException e) {
-                        if (e == null) {
-                            int len = scoreList.size();
-                            for (int i = 0; i < len; i++) {
-                                ParseObject p = scoreList.get(i);
-                                String celular_sms = p.getString("dato_contacto");
 
 
-                                Log.d("CELULAR", "CELULAR: " + celular_sms);
+
+                Log.d("CELULAR", "CELULAR: " + tel_asesor);
 
 // Initialize SmsManager Object// add the phone number in the data
 
-                                Uri uri = Uri.parse("smsto:" + celular_sms);
+                Uri uri = Uri.parse("smsto:" + tel_asesor);
 
 
-                                Intent smsSIntent = new Intent(Intent.ACTION_SENDTO, uri);
+                Intent smsSIntent = new Intent(Intent.ACTION_SENDTO, uri);
 
-                                // add the message at the sms_body extra field
+                // add the message at the sms_body extra field
 
-                                smsSIntent.putExtra("sms_body", " ");
+                smsSIntent.putExtra("sms_body", " ");
 
-                                try {
+                try {
 
-                                    startActivity(smsSIntent);
+                    startActivity(smsSIntent);
 
-                                } catch (Exception ex) {
+                } catch (Exception ex) {
 
-                                    Toast.makeText(WelcomeNoLogin.this, "ERROR - SMS no enviado...",
+                    Toast.makeText(WelcomeNoLogin .this, "ERROR - SMS no enviado...",
 
-                                          Toast.LENGTH_LONG).show();
+                            Toast.LENGTH_LONG).show();
 
-                                    ex.printStackTrace();
+                    ex.printStackTrace();
 
-                                }
-
-                            }
-                        } else {
-                            Log.d("score", "Error: " + e.getMessage());
-                        }
-                    }
-                });
-
-
+                }
 
             }
+
+
+
+
+
+
 
         });
 
@@ -164,59 +153,50 @@ public class WelcomeNoLogin extends Activity {
 
     }
 
-    public void addListenerCitaButton() {
+    public void addListenerCompartirButton() {
 
-        citaButton = (ImageButton) findViewById(R.id.citaButton);
+        compartirButton = (ImageButton) findViewById(R.id.compartirButton);
 
-        citaButton.setOnClickListener(new OnClickListener() {
+        compartirButton.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View arg0) {
 
-                ParseQuery<ParseObject> query = ParseQuery.getQuery("datos_contacto");
-                query.whereEqualTo("tipo_contacto", "URL_compartir_GooglePlay");
-                query.findInBackground(new FindCallback<ParseObject>() {
-                    public void done(List<ParseObject> scoreList, ParseException e) {
-                        if (e == null) {
-                            int len = scoreList.size();
-                            for (int i = 0; i < len; i++) {
-                                ParseObject p = scoreList.get(i);
-                                String email = p.getString("dato_contacto");
 
 
-                                Log.d("EMAIL FINAL", "EMAIL: " + email);
-
-                                subject = "Android App de PEDRO VILLAREJO";
-                                body = "Te recomiendo que descargues la Android App de PEDRO VILLAREJO. Disponible en :" + email;
-                                recipient = email;
-                                Intent enviar = new Intent(Intent.ACTION_SEND, Uri.parse("mailto:"));
-                                // prompts email clients only
-                                enviar.setType("message/rfc822");
-
-                                //enviar.putExtra(Intent.EXTRA_EMAIL, new String[]{email});
-                                enviar.putExtra(Intent.EXTRA_SUBJECT, "Android App de PEDRO VILLAREJO");
-                                enviar.putExtra(Intent.EXTRA_TEXT, "Te recomiendo que descargues la Android App de PEDRO VILLAREJO. Disponible en :" + email);
-
-                                try {
-                                    // the user can choose the email client
-                                    startActivity(Intent.createChooser(enviar, "Seleccione una aplicación para enviar el email..."));
-
-                                } catch (android.content.ActivityNotFoundException ex) {
-                                    Toast.makeText(WelcomeNoLogin.this, "No dispone de aplicaciones email.",
-                                            Toast.LENGTH_LONG).show();
-                                }
 
 
-                            }
-                        } else {
-                            Log.d("score", "Error: " + e.getMessage());
-                        }
-                    }
-                });
+                subject = "Android App Mi Asesor Automotriz";
+                body = "Te recomiendo que descargues la Android App  Mi Asesor Automotriz. Disponible en :" + google_play_agencia;
+                recipient = google_play_agencia;
+                Intent enviar = new Intent(Intent.ACTION_SEND, Uri.parse("mailto:"));
+                // prompts email clients only
+                enviar.setType("message/rfc822");
+
+                //enviar.putExtra(Intent.EXTRA_EMAIL, new String[]{email});
+                enviar.putExtra(Intent.EXTRA_SUBJECT, "Android App Mi Asesor Automotriz");
+                enviar.putExtra(Intent.EXTRA_TEXT, "Te recomiendo que descargues la Android App Mi Asesor Automotriz. Disponible en: " + google_play_agencia);
+
+                try {
+                    // the user can choose the email client
+                    startActivity(Intent.createChooser(enviar, "Seleccione una aplicación para enviar el email..."));
+
+                } catch (android.content.ActivityNotFoundException ex) {
+                    Toast.makeText(WelcomeNoLogin.this, "No dispone de aplicaciones email.",
+                            Toast.LENGTH_LONG).show();
+                }
+
 
             }
 
+
+
+
+
+
+
         });
+
 
     }
 
@@ -224,53 +204,40 @@ public class WelcomeNoLogin extends Activity {
 
         emailButton = (ImageButton) findViewById(R.id.emailButton);
 
-        emailButton.setOnClickListener(new OnClickListener() {
+        emailButton.setOnClickListener(new View.OnClickListener() {
 
             @Override
             public void onClick(View arg0) {
 
-                ParseQuery<ParseObject> query = ParseQuery.getQuery("datos_contacto");
-                query.whereEqualTo("tipo_contacto", "email_contacto");
-                query.findInBackground(new FindCallback<ParseObject>() {
-                    public void done(List<ParseObject> scoreList, ParseException e) {
-                        if (e == null) {
-                            int len = scoreList.size();
-                            for (int i = 0; i < len; i++) {
-                                ParseObject p = scoreList.get(i);
-                                String email = p.getString("dato_contacto");
 
 
-                                Log.d("EMAIL FINAL", "EMAIL: " + email);
+                Log.d("EMAIL FINAL", "EMAIL: " + email_asesor);
 
 
-                                Intent enviar = new Intent(Intent.ACTION_SEND, Uri.parse("mailto:"));
-                                // prompts email clients only
-                                enviar.setType("message/rfc822");
+                Intent enviar = new Intent(Intent.ACTION_SEND, Uri.parse("mailto:"));
+                // prompts email clients only
+                enviar.setType("message/rfc822");
 
-                                enviar.putExtra(Intent.EXTRA_EMAIL, new String[]{email});
-                                enviar.putExtra(Intent.EXTRA_SUBJECT, "Enviado desde la Android App PEDRO VILLAREJO");
-                                enviar.putExtra(Intent.EXTRA_TEXT, " ");
+                enviar.putExtra(Intent.EXTRA_EMAIL, new String[]{email_asesor});
+                enviar.putExtra(Intent.EXTRA_SUBJECT, "Enviado desde la Android App Mi Asesor Automotriz");
+                enviar.putExtra(Intent.EXTRA_TEXT, " ");
 
-                                try {
-                                    // the user can choose the email client
-                                    startActivity(Intent.createChooser(enviar, "Seleccione una aplicación para enviar el email..."));
+                try {
+                    // the user can choose the email client
+                    startActivity(Intent.createChooser(enviar, "Seleccione una aplicación para enviar el email..."));
 
-                                } catch (android.content.ActivityNotFoundException ex) {
-                                    Toast.makeText(WelcomeNoLogin.this, "No dispone de aplicaciones email.",
-                                            Toast.LENGTH_LONG).show();
-                                }
+                } catch (android.content.ActivityNotFoundException ex) {
+                    Toast.makeText(WelcomeNoLogin.this, "No dispone de aplicaciones email.",
+                            Toast.LENGTH_LONG).show();
+                }
 
-
-                            }
-                        } else {
-                            Log.d("score", "Error: " + e.getMessage());
-                        }
-                    }
-                });
 
             }
 
+
+
         });
+
 
     }
 }

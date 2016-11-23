@@ -298,8 +298,8 @@ public class Tramites_Online_1 extends Activity {
             @Override
             public void onClick(View arg0) {
 
-                EditText e = (EditText) findViewById(R.id.editemail);
-                EditText n = (EditText) findViewById(R.id.editnombre);
+                EditText e = (EditText) findViewById(R.id.edithora);
+                EditText n = (EditText) findViewById(R.id.editfecha);
                 EditText t = (EditText) findViewById(R.id.edittel);
                 String email = e.getText().toString();
 
@@ -335,8 +335,8 @@ public class Tramites_Online_1 extends Activity {
 
                 {
 
-                    nombreTV = (EditText) findViewById(R.id.editnombre);
-                    emailTV = (EditText) findViewById(R.id.editemail);
+                    nombreTV = (EditText) findViewById(R.id.editfecha);
+                    emailTV = (EditText) findViewById(R.id.edithora);
 
                     telTV = (EditText) findViewById(R.id.edittel);
 
