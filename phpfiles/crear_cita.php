@@ -13,7 +13,7 @@
  $comentarios = $_POST['comentarios'];
  $codigo = $_POST['codigo'];
  $agencia_cita = $_POST['agencia_cita'];
- 
+ echo $agencia_cita;
  
  require_once('dbConnect.php');
  

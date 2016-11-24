@@ -198,7 +198,7 @@ public class CustomAdapter extends BaseAdapter {
                 }
                 if (position == 5) {
 
-                    Intent myIntent = new Intent(context, Tramites_Online_2.class);
+                    Intent myIntent = new Intent(context, Tramites_Online_1.class);
 
 
                     context.startActivity(myIntent);

@@ -1,0 +1,4 @@
+#Thu Nov 24 15:26:38 MST 2016
+base.0=C\:\\Users\\Modesto\\git\\Mi-Asesor-Automotriz-Android\\Mi-Asesor-Automotriz-Android\\app\\build\\intermediates\\transforms\\dex\\release\\folders\\1000\\1f\\main
+renamed.0=classes.dex
+file.0=C\:\\Users\\Modesto\\git\\Mi-Asesor-Automotriz-Android\\Mi-Asesor-Automotriz-Android\\app\\build\\intermediates\\transforms\\dex\\release\\folders\\1000\\1f\\main\\classes.dex

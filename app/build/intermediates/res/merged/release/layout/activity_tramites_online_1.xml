@@ -1,0 +1,163 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#303741">
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:background="#0f142e"
+
+        android:gravity="fill_horizontal|bottom">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/homeButton"
+            android:src="@mipmap/home"
+            android:layout_weight="1" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/llamarButton"
+            android:src="@mipmap/llamar"
+            android:layout_weight="1" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/emailButton"
+            android:src="@mipmap/email"
+            android:layout_weight="1" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/citaButton"
+            android:src="@mipmap/sms"
+            android:layout_weight="1" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/userButton"
+            android:src="@mipmap/compartir"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="40dp">
+
+
+        <TextView
+            android:id="@+id/titulo"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="TRAMITES ONLINE (2/3)"
+
+            android:textStyle="bold"
+            android:textColor="#f8d0d0"
+            android:paddingLeft="10dp"
+            android:gravity="center_vertical|center_horizontal"
+            android:textSize="18sp"
+            android:layout_marginTop="20dp" />
+
+        <TextView
+            android:id="@+id/txtvehiculo"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/NombreCliente"
+            android:textStyle="bold"
+            android:textColor="#f8d0d0"
+            android:paddingLeft="10dp"
+            android:layout_marginTop="20dp" />
+
+        <EditText
+            android:id="@+id/editfecha"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtvehiculo"
+            android:inputType="text|textCapWords|textPersonName"
+            android:textColor="#f8d0d0"
+            android:paddingLeft="10dp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/txtemail"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/editfecha"
+            android:text="@string/EmailCliente"
+            android:textColor="#f8d0d0"
+            android:textStyle="bold"
+            android:paddingLeft="10dp" />
+
+        <EditText
+            android:id="@+id/edithora"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txtemail"
+            android:inputType="text|textWebEmailAddress"
+            android:textColor="#f8d0d0"
+            android:paddingLeft="10dp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/txtcelular"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edithora"
+            android:text="Celular/Teléfono"
+            android:textColor="#f8d0d0"
+            android:textStyle="bold"
+            android:paddingLeft="10dp" />
+
+        <EditText
+            android:id="@+id/edittel"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txttel"
+            android:inputType="text|number"
+            android:textColor="#f8d0d0"
+            android:paddingLeft="10dp"
+            android:textStyle="italic" />
+
+        <Button
+            android:id="@+id/seguir"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/edittel"
+            android:text="@string/SeguirBtn"
+            android:background="@android:color/darker_gray"
+            android:alpha="0.8"
+            android:textColor="#040404"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/cancelar"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/seguir"
+            android:text="@string/CancelarBtn"
+            android:background="@android:color/darker_gray"
+            android:alpha="0.8"
+            android:textColor="#9c0a0a"
+            android:textStyle="bold"
+            android:layout_marginTop="2dp" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>

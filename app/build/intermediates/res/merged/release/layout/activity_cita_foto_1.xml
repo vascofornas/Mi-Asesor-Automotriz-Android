@@ -1,0 +1,102 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#303741">
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:background="#0f142e"
+
+        android:gravity="fill_horizontal|bottom">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/homeButton"
+            android:src="@mipmap/home"
+            android:layout_weight="1" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/llamarButton"
+            android:src="@mipmap/llamar"
+            android:layout_weight="1" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/emailButton"
+            android:src="@mipmap/email"
+            android:layout_weight="1" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/citaButton"
+            android:src="@mipmap/sms"
+            android:layout_weight="1" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/userButton"
+            android:src="@mipmap/compartir"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="50dp">
+
+
+        <TextView
+            android:id="@+id/titulo"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="CITA A SERVICIO (Envio de fotos)"
+
+            android:textStyle="bold"
+            android:textColor="#f8d0d0"
+            android:paddingLeft="10dp"
+            android:gravity="center_vertical|center_horizontal"
+            android:textSize="18sp"
+            android:layout_marginTop="20dp" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Seleccionar fotografía"
+            android:id="@+id/addphoto"
+            android:layout_marginTop="50dp" />
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Enviar"
+            android:id="@+id/send" />
+
+        <ListView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/filelist"
+            android:touchscreenBlocksFocus="true"
+            android:textFilterEnabled="true"
+            android:background="@android:color/holo_blue_dark"
+            android:layout_marginBottom="30dp" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>

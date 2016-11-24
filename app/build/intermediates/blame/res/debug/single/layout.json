@@ -20,6 +20,10 @@
         "source": "C:\\Users\\Modesto\\git\\Mi-Asesor-Automotriz-Android\\Mi-Asesor-Automotriz-Android\\app\\src\\main\\res\\layout\\activity_miautoeditar.xml"
     },
     {
+        "merged": "C:\\Users\\Modesto\\git\\Mi-Asesor-Automotriz-Android\\Mi-Asesor-Automotriz-Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_tramites_3.xml",
+        "source": "C:\\Users\\Modesto\\git\\Mi-Asesor-Automotriz-Android\\Mi-Asesor-Automotriz-Android\\app\\src\\main\\res\\layout\\activity_tramites_3.xml"
+    },
+    {
         "merged": "C:\\Users\\Modesto\\git\\Mi-Asesor-Automotriz-Android\\Mi-Asesor-Automotriz-Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_prestige.xml",
         "source": "C:\\Users\\Modesto\\git\\Mi-Asesor-Automotriz-Android\\Mi-Asesor-Automotriz-Android\\app\\src\\main\\res\\layout\\activity_prestige.xml"
     },
@@ -98,6 +102,10 @@
     {
         "merged": "C:\\Users\\Modesto\\git\\Mi-Asesor-Automotriz-Android\\Mi-Asesor-Automotriz-Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_popup_menu_item_layout.xml",
         "source": "C:\\Users\\Modesto\\git\\Mi-Asesor-Automotriz-Android\\Mi-Asesor-Automotriz-Android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_popup_menu_item_layout.xml"
+    },
+    {
+        "merged": "C:\\Users\\Modesto\\git\\Mi-Asesor-Automotriz-Android\\Mi-Asesor-Automotriz-Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_tramites_1.xml",
+        "source": "C:\\Users\\Modesto\\git\\Mi-Asesor-Automotriz-Android\\Mi-Asesor-Automotriz-Android\\app\\src\\main\\res\\layout\\activity_tramites_1.xml"
     },
     {
         "merged": "C:\\Users\\Modesto\\git\\Mi-Asesor-Automotriz-Android\\Mi-Asesor-Automotriz-Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\mr_media_route_controller_material_dialog_b.xml",
@@ -286,6 +294,10 @@
     {
         "merged": "C:\\Users\\Modesto\\git\\Mi-Asesor-Automotriz-Android\\Mi-Asesor-Automotriz-Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_activity_chooser_view_list_item.xml",
         "source": "C:\\Users\\Modesto\\git\\Mi-Asesor-Automotriz-Android\\Mi-Asesor-Automotriz-Android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_activity_chooser_view_list_item.xml"
+    },
+    {
+        "merged": "C:\\Users\\Modesto\\git\\Mi-Asesor-Automotriz-Android\\Mi-Asesor-Automotriz-Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_tramites_2.xml",
+        "source": "C:\\Users\\Modesto\\git\\Mi-Asesor-Automotriz-Android\\Mi-Asesor-Automotriz-Android\\app\\src\\main\\res\\layout\\activity_tramites_2.xml"
     },
     {
         "merged": "C:\\Users\\Modesto\\git\\Mi-Asesor-Automotriz-Android\\Mi-Asesor-Automotriz-Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_cita_no_login_3copy.xml",

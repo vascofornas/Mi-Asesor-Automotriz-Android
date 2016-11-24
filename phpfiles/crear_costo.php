@@ -13,7 +13,6 @@
  $codigo = $_POST['codigo'];
  $agencia_costo = $_POST['agencia_costo'];
  
- 
  require_once('dbConnect.php');
  
  $sql = "INSERT INTO tb_costos_servicio (nombre_cliente,email_cliente,cel_cliente,

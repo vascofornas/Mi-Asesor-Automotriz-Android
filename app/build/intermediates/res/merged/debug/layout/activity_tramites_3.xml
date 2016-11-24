@@ -1,0 +1,257 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/fondoazul">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentBottom="true"
+        android:background="#0f142e"
+
+        android:gravity="fill_horizontal|bottom">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/homeButton"
+            android:src="@mipmap/home"
+            android:layout_weight="1" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/llamarButton"
+            android:src="@mipmap/llamar"
+            android:layout_weight="1" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/emailButton"
+            android:src="@mipmap/email"
+            android:layout_weight="1" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/citaButton"
+            android:src="@mipmap/sms"
+            android:layout_weight="1" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/userButton"
+            android:src="@mipmap/compartir"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollIndicators="right"
+        android:nestedScrollingEnabled="true"
+        android:background="@color/common_google_signin_btn_text_light_default"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true">
+
+
+        <TextView
+            android:id="@+id/titulo"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="TRAMITES ONLINE (3/3)"
+
+            android:textStyle="bold"
+            android:textColor="#f8d0d0"
+            android:paddingLeft="10dp"
+            android:gravity="center_vertical|center_horizontal"
+            android:textSize="18sp"
+            android:layout_marginTop="5dp" />
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/txtnombre"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Su nombre"
+                android:textStyle="bold"
+                android:textColor="#f8d0d0"
+                android:paddingLeft="10dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical|left|top" />
+
+            <TextView
+                android:id="@+id/tvNombre"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Seleccione vehículo"
+                android:textColor="#fffefe"
+                android:paddingLeft="10dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical|left|top" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/txtemail"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Su email"
+                android:textStyle="bold"
+                android:textColor="#f8d0d0"
+                android:paddingLeft="10dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical|left|top" />
+
+            <TextView
+                android:id="@+id/tvEmail"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Seleccione vehículo"
+                android:textColor="#fffefe"
+                android:paddingLeft="10dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical|left|top" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/txtcel"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Su celular"
+                android:textStyle="bold"
+                android:textColor="#f8d0d0"
+                android:paddingLeft="10dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical|left|top" />
+
+            <TextView
+                android:id="@+id/tvCelular"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Seleccione vehículo"
+                android:textColor="#fffefe"
+                android:paddingLeft="10dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical|left|top" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/txtVehiculo"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Su Trámite"
+                android:textStyle="bold"
+                android:textColor="#f8d0d0"
+                android:paddingLeft="10dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical|left|top" />
+
+            <TextView
+                android:id="@+id/tvTramite"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Seleccione vehículo"
+                android:textColor="#fffefe"
+                android:paddingLeft="10dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical|left|top" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/txtComentarios"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Sus comentarios"
+                android:textStyle="bold"
+                android:textColor="#f8d0d0"
+                android:paddingLeft="10dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical|left|top" />
+
+            <EditText
+                android:id="@+id/tvComentarios"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textColor="#fffefe"
+                android:paddingLeft="10dp"
+                android:layout_weight="1"
+                android:gravity="center_vertical|left|top"
+                android:textStyle="bold"
+                android:minLines="1"
+                android:maxLines="5"
+                android:hint="Escriba aquí sus comentarios"
+                android:textSize="12sp" />
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:id="@+id/seguir"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_below="@+id/edittel"
+                android:text="ENVIAR SOLICITUD DE COSTO DE SERVICIO"
+                android:textColor="#f6efef"
+                android:layout_weight="1"
+                android:gravity="center_vertical|center_horizontal"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/cancelar"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_below="@+id/seguir"
+                android:text="CANCELAR"
+                android:textColor="#ffffff"
+                android:layout_weight="1"
+                android:gravity="center_vertical|center_horizontal" />
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</RelativeLayout>

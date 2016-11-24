@@ -87,7 +87,7 @@ public class CostoServicio_NoLogin_3 extends Activity {
         email_asesor = prefs.getString("email_asesor", "NO HA SELECCIONADO NINGUNA AGENCIA");
         google_play_agencia = prefs.getString("google_play_agencia", "NO HA SELECCIONADO NINGUNA AGENCIA");
 
-
+        codigo_agencia = prefs.getString("codigo_agencia", "NO HA SELECCIONADO NINGUNA AGENCIA");
 
         addListenerHomeButton();
         addListenerLlamarButton();
@@ -412,6 +412,9 @@ public class CostoServicio_NoLogin_3 extends Activity {
                 progress = ProgressDialog.show(CostoServicio_NoLogin_3.this, "Costo de Servicio "+random,
                         "Enviando datos...", true);
 
+
+                Log.d("CITA A SERVICIO3", "CODIGO AGENCIA: " +codigo_agencia);
+
                 new Thread(new Runnable() {
                     @Override
                     public void run() {
@@ -423,8 +426,8 @@ public class CostoServicio_NoLogin_3 extends Activity {
                         String[] toArr = {email_asesor};
                         m.setTo(toArr);
                         m.setFrom(email_asesor);
-                        m.setSubject("Cita No. " + random + " SOLICITUD DE COSTO DE SERVICIO DESDE LA ANDROID APP -MI ASESOR AUTOMOTRIZ- ");
-                        m.setBody("Cita No. " + random+" SOLICITUD DE COSTO DE SERVICIO  \n\n"
+                        m.setSubject("Solicitud de costos No. " + random + " SOLICITUD DE COSTO DE SERVICIO DESDE LA ANDROID APP -MI ASESOR AUTOMOTRIZ- ");
+                        m.setBody("Solicitud de costos No. " + random+" SOLICITUD DE COSTO DE SERVICIO  \n\n"
                                 + "Número de solicitud de costo: " + random
                                 + "\nCliente: " + nombre
                                 + "\nEmail: " + email
