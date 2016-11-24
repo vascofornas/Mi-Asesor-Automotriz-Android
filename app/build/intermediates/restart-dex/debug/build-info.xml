@@ -5,30 +5,30 @@
     density="xhdpi"
     format="8"
     plugin-version="2.2.2"
-    timestamp="27292504783035"
+    timestamp="116410204605488"
     token="5610948756556992910"
-    verifier="FIELD_ADDED" >
+    verifier="FIELD_TYPE_CHANGE" >
 
     <task
         name="javac"
-        duration="3923" />
+        duration="12722" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="171" />
+        duration="219" />
     <task
         name="verifier"
-        duration="33" />
+        duration="93" />
 
     <artifact
         location="C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\build\outputs\apk\app-debug.apk"
         type="MAIN" />
 
     <build
-        timestamp="27292504783035"
-        verifier="FIELD_ADDED" >
+        timestamp="116410204605488"
+        verifier="FIELD_TYPE_CHANGE" >
         <artifact
             location="C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\build\outputs\apk\app-debug.apk"
             type="MAIN" />

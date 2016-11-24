@@ -1,6 +1,8 @@
 package com.webjuarez.miasesorautomotriz;
 
+import android.app.AlertDialog;
 import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.net.Uri;
@@ -12,10 +14,6 @@ import android.widget.BaseAdapter;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.parse.FindCallback;
-import com.parse.ParseException;
-import com.parse.ParseObject;
-import com.parse.ParseQuery;
 
 import java.util.List;
 
@@ -27,6 +25,8 @@ public class CustomAdapter extends BaseAdapter {
     String[] result, recipients;
     Context context;
     int[] imageId;
+    private String nombre_asesor;
+    private String apellidos_asesor;
 
 
     String nombre_POI, latitud, longitud, direccion, recipient, subject, body;
@@ -41,82 +41,8 @@ public class CustomAdapter extends BaseAdapter {
                 getSystemService(Context.LAYOUT_INFLATER_SERVICE);
         //query a Parse
 
-        ParseQuery<ParseObject> query = ParseQuery.getQuery("datos_contacto");
-        query.whereEqualTo("tipo_contacto", "nombre_POI");
-        query.findInBackground(new FindCallback<ParseObject>() {
-            public void done(List<ParseObject> scoreList, ParseException e) {
-                if (e == null) {
-                    int len = scoreList.size();
-                    for (int i = 0; i < len; i++) {
-                        ParseObject p = scoreList.get(i);
-                        nombre_POI = p.getString("dato_contacto");
-
-                        Log.d("Nombre POI", "NOMBRE POI: " + nombre_POI);
 
 
-                    }
-                } else {
-                    Log.d("score", "Error: " + e.getMessage());
-                }
-            }
-        });
-        ParseQuery<ParseObject> query1 = ParseQuery.getQuery("datos_contacto");
-        query1.whereEqualTo("tipo_contacto", "latitud");
-        query1.findInBackground(new FindCallback<ParseObject>() {
-            public void done(List<ParseObject> scoreList, ParseException e) {
-                if (e == null) {
-                    int len = scoreList.size();
-                    for (int i = 0; i < len; i++) {
-                        ParseObject p = scoreList.get(i);
-                        latitud = p.getString("dato_contacto");
-
-                        Log.d("LATITUD POI", "LATITUD POI: " + latitud);
-
-
-                    }
-                } else {
-                    Log.d("score", "Error: " + e.getMessage());
-                }
-            }
-        });
-        ParseQuery<ParseObject> query2 = ParseQuery.getQuery("datos_contacto");
-        query2.whereEqualTo("tipo_contacto", "longitud");
-        query2.findInBackground(new FindCallback<ParseObject>() {
-            public void done(List<ParseObject> scoreList, ParseException e) {
-                if (e == null) {
-                    int len = scoreList.size();
-                    for (int i = 0; i < len; i++) {
-                        ParseObject p = scoreList.get(i);
-                        longitud = p.getString("dato_contacto");
-
-                        Log.d("LONGITUD POI", "LONGITUD POI: " + longitud);
-
-
-                    }
-                } else {
-                    Log.d("score", "Error: " + e.getMessage());
-                }
-            }
-        });
-        ParseQuery<ParseObject> query5 = ParseQuery.getQuery("datos_contacto");
-        query5.whereEqualTo("tipo_contacto", "direccion");
-        query5.findInBackground(new FindCallback<ParseObject>() {
-            public void done(List<ParseObject> scoreList, ParseException e) {
-                if (e == null) {
-                    int len = scoreList.size();
-                    for (int i = 0; i < len; i++) {
-                        ParseObject p = scoreList.get(i);
-                        direccion = p.getString("dato_contacto");
-
-                        Log.d("DIRECCION POI", "DIRECCION POI: " + direccion);
-
-
-                    }
-                } else {
-                    Log.d("score", "Error: " + e.getMessage());
-                }
-            }
-        });
 
 
     }
@@ -235,12 +161,37 @@ public class CustomAdapter extends BaseAdapter {
                     SharedPreferences prefs =
                             context.getSharedPreferences("MisPreferencias", Context.MODE_PRIVATE);
 
-                    String numero_financiera = prefs.getString("financiera", "NO HA SELECCIONADO NINGUNA WEB");
+                    final String numero_financiera = prefs.getString("financiera", "NO HA SELECCIONADO NINGUNA WEB");
+                    nombre_asesor = prefs.getString("nombre_asesor", "NO HA SELECCIONADO NINGUNA WEB");
+                    apellidos_asesor = prefs.getString("apellidos_asesor", "NO HA SELECCIONADO NINGUNA WEB");
 
 
 
-                    Intent intent = new Intent(Intent.ACTION_CALL, Uri.parse("tel:" + numero_financiera));
+                    new AlertDialog.Builder(context)
+                            .setTitle("Marcar a tu Asesor")
+                            .setMessage("Estas seguro de que quieres marcar a la Financiera?")
+                            .setPositiveButton(android.R.string.yes, new DialogInterface.OnClickListener() {
+                                public void onClick(DialogInterface dialog, int which) {
+                                    // continue with delete
+                                    Log.d("score", "Celular: " + numero_financiera);
+
+                                    Intent intent = new Intent(Intent.ACTION_CALL, Uri.parse("tel:" + numero_financiera));
+
+
                                     context.startActivity(intent);
+
+
+
+                                }
+                            })
+                            .setNegativeButton(android.R.string.no, new DialogInterface.OnClickListener() {
+                                public void onClick(DialogInterface dialog, int which) {
+                                    // do nothing
+                                }
+                            })
+                            .setIcon(android.R.drawable.ic_dialog_alert)
+                            .show();
+
 
 
 

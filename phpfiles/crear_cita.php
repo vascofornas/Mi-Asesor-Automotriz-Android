@@ -9,21 +9,21 @@
  $kilometros = $_POST['kilometros'];
  $ano = $_POST['ano'];
  $fecha = $_POST['fecha'];
- 
  $hora = $_POST['hora'];
  $comentarios = $_POST['comentarios'];
  $codigo = $_POST['codigo'];
+ $agencia_cita = $_POST['agencia_cita'];
  
  
  require_once('dbConnect.php');
  
  $sql = "INSERT INTO tb_citas_servicio (nombre_cliente,email_cliente,cel_cliente,
- 		modelo, ano, kilometros, tipo,fecha,hora,comentarios,codigo) VALUES ('$nombre_cliente','$email_cliente','$cel_cliente',
- 		'$modelo','$ano','$kilometros','$tipo','$fecha','$hora','$comentarios','$codigo')
+ 		modelo, ano, kilometros, tipo,fecha,hora,comentarios,codigo,agencia_cita) VALUES ('$nombre_cliente','$email_cliente','$cel_cliente',
+ 		'$modelo','$ano','$kilometros','$tipo','$fecha','$hora','$comentarios','$codigo','$agencia_cita')
  		";
  
   if(mysqli_query($con,$sql)){
- echo "Successfully Registered";
+echo "AGENCIA CITA=".$agencia_cita;
  }else{
  echo "Could not register";
  

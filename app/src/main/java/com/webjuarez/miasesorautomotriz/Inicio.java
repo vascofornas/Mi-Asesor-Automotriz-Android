@@ -53,8 +53,8 @@ public class Inicio extends Activity  {
         String apellidos_asesor = prefs.getString("apellidos_asesor", "NO HA SELECCIONADO NINGUN ASESOR");
 
 
-        agenciaId.setText(codigo_agencia );
-        asesorId.setText(nombre_asesor );
+        agenciaId.setText(nombre_agencia );
+        asesorId.setText(nombre_asesor+" "+apellidos_asesor );
 
 
 
@@ -85,11 +85,8 @@ public class Inicio extends Activity  {
         String id_asesor = prefs.getString("id_asesor", "NO HA SELECCIONADO NINGUN ASESOR");
         String apellidos_asesor = prefs.getString("apellidos_asesor", "NO HA SELECCIONADO NINGUN ASESOR");
 
-        agenciaId.setText(codigo_agencia);
-        asesorId.setText(nombre_asesor );
-
-
-
+        agenciaId.setText(nombre_agencia );
+        asesorId.setText(nombre_asesor+" "+apellidos_asesor );
 
 
 

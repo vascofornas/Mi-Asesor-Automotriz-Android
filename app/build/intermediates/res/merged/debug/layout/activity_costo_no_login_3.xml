@@ -3,8 +3,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:background="#303741">
-
+    android:background="@drawable/fondoazul">
 
     <LinearLayout
         android:orientation="horizontal"
@@ -56,16 +55,18 @@
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
+        android:scrollIndicators="right"
+        android:nestedScrollingEnabled="true"
+        android:background="@color/common_google_signin_btn_text_light_default"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="40dp">
+        android:layout_alignParentStart="true">
 
 
         <TextView
             android:id="@+id/titulo"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:text="PREGUNTEME COSTO SERVICIO (3/3)"
+            android:text="COSTO DE SERVICIO (4/4)"
 
             android:textStyle="bold"
             android:textColor="#f8d0d0"
@@ -150,35 +151,6 @@
 
             <TextView
                 android:id="@+id/tvCelular"
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:text="Seleccione vehículo"
-                android:textColor="#fffefe"
-                android:paddingLeft="10dp"
-                android:layout_weight="1"
-                android:gravity="center_vertical|left|top" />
-
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:orientation="horizontal"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content">
-
-            <TextView
-                android:id="@+id/txttel"
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:text="Su teléfono"
-                android:textStyle="bold"
-                android:textColor="#f8d0d0"
-                android:paddingLeft="10dp"
-                android:layout_weight="1"
-                android:gravity="center_vertical|left|top" />
-
-            <TextView
-                android:id="@+id/tvTel"
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
                 android:text="Seleccione vehículo"
@@ -301,37 +273,41 @@
                 android:paddingLeft="10dp"
                 android:layout_weight="1"
                 android:gravity="center_vertical|left|top"
-                android:textSize="15dp"
                 android:textStyle="bold"
-                android:minLines="2"
-                android:maxLines="3"
-                android:hint="Escriba aquí sus comentarios" />
+                android:minLines="1"
+                android:maxLines="5"
+                android:hint="Escriba aquí sus comentarios"
+                android:textSize="12sp" />
 
 
         </LinearLayout>
 
-        <Button
-            android:id="@+id/seguir"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/edittel"
-            android:text="@string/SeguirBtn"
-            android:background="@android:color/darker_gray"
-            android:alpha="0.8"
-            android:textColor="#040404"
-            android:textStyle="bold" />
+        <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
 
-        <Button
-            android:id="@+id/cancelar"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/seguir"
-            android:text="@string/CancelarBtn"
-            android:background="@android:color/darker_gray"
-            android:alpha="0.8"
-            android:textColor="#9c0a0a"
-            android:textStyle="bold"
-            android:layout_marginTop="2dp" />
+            <Button
+                android:id="@+id/seguir"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_below="@+id/edittel"
+                android:text="ENVIAR SOLICITUD DE COSTO DE SERVICIO"
+                android:textColor="#f6efef"
+                android:layout_weight="1"
+                android:gravity="center_vertical|center_horizontal"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/cancelar"
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:layout_below="@+id/seguir"
+                android:text="CANCELAR"
+                android:textColor="#ffffff"
+                android:layout_weight="1"
+                android:gravity="center_vertical|center_horizontal" />
+        </LinearLayout>
 
 
     </LinearLayout>

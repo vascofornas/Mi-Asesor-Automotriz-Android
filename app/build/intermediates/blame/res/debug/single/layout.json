@@ -144,6 +144,10 @@
         "source": "C:\\Users\\Modesto\\git\\Mi-Asesor-Automotriz-Android\\Mi-Asesor-Automotriz-Android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_action_bar_view_list_nav_layout.xml"
     },
     {
+        "merged": "C:\\Users\\Modesto\\git\\Mi-Asesor-Automotriz-Android\\Mi-Asesor-Automotriz-Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_costo_no_login_22.xml",
+        "source": "C:\\Users\\Modesto\\git\\Mi-Asesor-Automotriz-Android\\Mi-Asesor-Automotriz-Android\\app\\src\\main\\res\\layout\\activity_costo_no_login_22.xml"
+    },
+    {
         "merged": "C:\\Users\\Modesto\\git\\Mi-Asesor-Automotriz-Android\\Mi-Asesor-Automotriz-Android\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_title_item.xml",
         "source": "C:\\Users\\Modesto\\git\\Mi-Asesor-Automotriz-Android\\Mi-Asesor-Automotriz-Android\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.1.1\\res\\layout\\abc_action_bar_title_item.xml"
     },

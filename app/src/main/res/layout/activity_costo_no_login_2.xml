@@ -3,8 +3,20 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
-    android:background="#303741">
+    android:background="@drawable/fondoazul">
 
+    <TextView
+        android:text="NOMBRE"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="false"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:id="@+id/nombreAsesor"
+        android:textSize="18sp"
+        android:layout_marginTop="10dp"
+        android:background="#0f142e"
+        android:gravity="center_horizontal" />
 
     <LinearLayout
         android:orientation="horizontal"
@@ -52,69 +64,57 @@
 
     </LinearLayout>
 
+    <TextView
+        android:text="COSTO DE SERVICIO (2/4)"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/textView6"
+        android:textSize="24sp" />
+
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginBottom="40dp">
+        android:layout_below="@+id/textView6">
 
-
-        <TextView
-            android:id="@+id/titulo"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:text="PREGUNTEME COSTO SERVICIO (2/3)"
-
-            android:textStyle="bold"
-            android:textColor="#f8d0d0"
-            android:paddingLeft="10dp"
-            android:gravity="center_vertical|center_horizontal"
-            android:textSize="18sp"
-            android:layout_marginTop="20dp" />
 
         <LinearLayout
             android:orientation="horizontal"
-            android:layout_width="fill_parent"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content">
 
+
             <TextView
-                android:id="@+id/txtvehiculoll"
-                android:layout_width="fill_parent"
+                android:text="MODELO AUTO"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Seleccione vehículo"
-                android:textStyle="bold"
-                android:textColor="#f8d0d0"
-                android:paddingLeft="10dp"
+                android:id="@+id/textView15"
                 android:layout_weight="1"
-                android:gravity="center_vertical|left|top" />
+                android:paddingLeft="10dp" />
 
             <Spinner
                 android:layout_width="fill_parent"
                 android:layout_height="wrap_content"
-                android:id="@+id/spinner"
+                android:id="@+id/spinner1"
                 android:layout_weight="1" />
-
 
         </LinearLayout>
 
         <LinearLayout
             android:orientation="horizontal"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="5dp">
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
 
             <TextView
-                android:id="@+id/txtvehiculol"
-                android:layout_width="fill_parent"
+                android:text="AÑO AUTO"
+                android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:text="Seleccione año"
-                android:textStyle="bold"
-                android:textColor="#f8d0d0"
-                android:paddingLeft="10dp"
+                android:id="@+id/textView150"
                 android:layout_weight="1"
-                android:gravity="center_vertical|left|top" />
+                android:paddingLeft="10dp" />
 
             <Spinner
                 android:layout_width="fill_parent"
@@ -122,76 +122,42 @@
                 android:id="@+id/spinner2"
                 android:layout_weight="1" />
 
-
         </LinearLayout>
 
-        <LinearLayout
-            android:orientation="horizontal"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="5dp">
-
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:orientation="horizontal"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="5dp">
-
-            <TextView
-                android:id="@+id/txtvehiculo33lew"
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:text="Kilómetros aprox."
-                android:textStyle="bold"
-                android:textColor="#f8d0d0"
-                android:paddingLeft="10dp"
-                android:layout_weight="1"
-                android:gravity="center_vertical|left|top" />
-
-            <Spinner
-                android:layout_width="fill_parent"
-                android:layout_height="wrap_content"
-                android:id="@+id/spinner4"
-                android:layout_weight="1" />
-
-
-        </LinearLayout>
 
         <LinearLayout
             android:orientation="horizontal"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:gravity="center_vertical|center_horizontal">
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:layout_marginBottom="60dp">
+
+            <Button
+                android:text="ACEPTAR Y CONTINUAR"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/linearLayout3"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:id="@+id/seguir"
+                android:layout_weight="2" />
+
+            <Button
+                android:text="CANCELAR"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/linearLayout3"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:id="@+id/cancelar"
+                android:layout_weight="2"
+                android:textColor="@android:color/holo_red_dark" />
 
         </LinearLayout>
-
-        <Button
-            android:id="@+id/seguir"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/edittel"
-            android:text="@string/SeguirBtn"
-            android:background="@android:color/darker_gray"
-            android:alpha="0.8"
-            android:textColor="#040404"
-            android:textStyle="bold" />
-
-        <Button
-            android:id="@+id/cancelar"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:layout_below="@+id/seguir"
-            android:text="@string/CancelarBtn"
-            android:background="@android:color/darker_gray"
-            android:alpha="0.8"
-            android:textColor="#9c0a0a"
-            android:textStyle="bold"
-            android:layout_marginTop="2dp" />
-
-
     </LinearLayout>
 
+
+
+
 </RelativeLayout>
+

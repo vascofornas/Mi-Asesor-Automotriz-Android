@@ -1,8 +1,12 @@
 package com.webjuarez.miasesorautomotriz;
 
 import android.app.Activity;
+import android.app.AlertDialog;
 import android.app.ProgressDialog;
+import android.content.Context;
+import android.content.DialogInterface;
 import android.content.Intent;
+import android.content.SharedPreferences;
 import android.net.Uri;
 import android.os.Bundle;
 import android.util.Log;
@@ -13,12 +17,15 @@ import android.widget.ImageButton;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.parse.FindCallback;
-import com.parse.ParseException;
-import com.parse.ParseObject;
-import com.parse.ParseQuery;
+import com.android.volley.Request;
+import com.android.volley.RequestQueue;
+import com.android.volley.Response;
+import com.android.volley.VolleyError;
+import com.android.volley.toolbox.StringRequest;
+import com.android.volley.toolbox.Volley;
 
-import java.util.List;
+import java.util.HashMap;
+import java.util.Map;
 
 
 /**
@@ -26,16 +33,42 @@ import java.util.List;
  */
 public class CostoServicio_NoLogin_3 extends Activity {
 
-
+    private static final String ALPHA_NUMERIC_STRING = "ABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
     Button continuarButton, cancelarButton;
-
+    String recipient, subject, body,random;
     String nombre, email, cel, tel, fecha, hora, vehiculo, tipo, ano, comentarios, email_envio_cita, email_emisor, kilometros;
     TextView tvNombre, tvEmail, tvCel, tvTel, tvFecha, tvHora, tvVehiculo, tvTipo, tvAno, tvKilometros;
     EditText tvComentarios;
-    String recipient, subject, body;
     ImageButton homeButton, llamarButton, emailButton, citaButton,userButton;
 
     ProgressDialog progress;
+    private String name;
+    private String codigo_agencia;
+    private String nombre_agencia;
+    private String id_agencia;
+    private String tel_asesor;
+    private String email_asesor;
+    private String google_play_agencia;
+    private TextView nombreAsesor;
+    private String nombre_asesor;
+    private String apellidos_asesor;
+
+    private static final String REGISTER_URL = "http://miasesorautomotriz.com/administrar/phpfiles/crear_costo.php";
+
+    public static final String KEY_NOMBRE_CLIENTE = "nombre_cliente";
+    public static final String KEY_EMAIL_CLIENTE = "email_cliente";
+    public static final String KEY_CEL_CLIENTE = "cel_cliente";
+
+    public static final String KEY_MODELO = "modelo";
+    public static final String KEY_ANO = "ano";
+
+
+    public static final String KEY_KILOMETROS = "kilometros";
+
+    public static final String KEY_COMENTARIOS = "comentarios";
+    public static final String KEY_CODIGO = "codigo";
+    public static final String KEY_AGENCIA = "agencia_costo";
+
 
 
     @Override
@@ -44,31 +77,27 @@ public class CostoServicio_NoLogin_3 extends Activity {
         setContentView(R.layout.activity_costo_no_login_3);
 
 
+
+        SharedPreferences prefs =
+                getSharedPreferences("MisPreferencias", Context.MODE_PRIVATE);
+
+        nombre_asesor = prefs.getString("nombre_asesor", "NO HA SELECCIONADO NINGUNA AGENCIA");
+         apellidos_asesor = prefs.getString("apellidos_asesor", "NO HA SELECCIONADO NINGUNA AGENCIA");
+        tel_asesor = prefs.getString("tel_asesor", "NO HA SELECCIONADO NINGUNA AGENCIA");
+        email_asesor = prefs.getString("email_asesor", "NO HA SELECCIONADO NINGUNA AGENCIA");
+        google_play_agencia = prefs.getString("google_play_agencia", "NO HA SELECCIONADO NINGUNA AGENCIA");
+
+
+
         addListenerHomeButton();
         addListenerLlamarButton();
         addListenerEmailButton();
-        addListenerCitaButton();
-        addListenerUserButton();
+        addListenerSMSButton();
+        addListenerCompartirButton();
+        addListenerCancelerButton();
+        addListenerContinuarButton();
 
 
-        //recuperar email al que enviar cita
-        ParseQuery<ParseObject> query12 = ParseQuery.getQuery("datos_contacto");
-        query12.whereEqualTo("tipo_contacto", "email_envio_costo_servicio");
-        query12.findInBackground(new FindCallback<ParseObject>() {
-            public void done(List<ParseObject> scoreList, ParseException e) {
-                if (e == null) {
-                    int len = scoreList.size();
-                    for (int i = 0; i < len; i++) {
-                        ParseObject p = scoreList.get(i);
-                        email_emisor = p.getString("dato_contacto");
-
-
-                    }
-                } else {
-                    Log.d("score", "Error: " + e.getMessage());
-                }
-            }
-        });
 
         Intent intent = getIntent();
         nombre = intent.getStringExtra("nombre");
@@ -77,14 +106,14 @@ public class CostoServicio_NoLogin_3 extends Activity {
         tel = intent.getStringExtra("tel");
 
         vehiculo = intent.getStringExtra("vehiculo");
-
+        tipo = intent.getStringExtra("tipo");
         ano = intent.getStringExtra("ano");
         kilometros = intent.getStringExtra("kilometros");
 
         tvNombre = (TextView) findViewById(R.id.tvNombre);
         tvEmail = (TextView) findViewById(R.id.tvEmail);
         tvCel = (TextView) findViewById(R.id.tvCelular);
-        tvTel = (TextView) findViewById(R.id.tvTel);
+
 
         tvVehiculo = (TextView) findViewById(R.id.tvVehiculo);
         tvKilometros = (TextView) findViewById(R.id.tvKilometros);
@@ -95,7 +124,7 @@ public class CostoServicio_NoLogin_3 extends Activity {
         tvNombre.setText(nombre);
         tvEmail.setText(email);
         tvCel.setText(cel);
-        tvTel.setText(tel);
+
 
         tvVehiculo.setText(vehiculo);
 
@@ -103,32 +132,63 @@ public class CostoServicio_NoLogin_3 extends Activity {
         tvKilometros.setText(kilometros);
 
 
-        addListenerContinuarButton();
-        addListenerCancelerButton();
-
-        //recuperar email al que enviar cita
-        ParseQuery<ParseObject> query = ParseQuery.getQuery("datos_contacto");
-        query.whereEqualTo("tipo_contacto", "email_envio_costo_servicio");
-        query.findInBackground(new FindCallback<ParseObject>() {
-            public void done(List<ParseObject> scoreList, ParseException e) {
-                if (e == null) {
-                    int len = scoreList.size();
-                    for (int i = 0; i < len; i++) {
-                        ParseObject p = scoreList.get(i);
-                        email_envio_cita = p.getString("dato_contacto");
 
 
-                    }
-                } else {
-                    Log.d("score", "Error: " + e.getMessage());
-                }
-            }
-        });
+
 
 
     }
+    public void addListenerSMSButton() {
 
-    public void addListenerUserButton() {
+        citaButton = (ImageButton) findViewById(R.id.citaButton);
+
+        citaButton.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View arg0) {
+
+
+
+                Log.d("CELULAR", "CELULAR: " + tel_asesor);
+
+// Initialize SmsManager Object// add the phone number in the data
+
+                Uri uri = Uri.parse("smsto:" + tel_asesor);
+
+
+                Intent smsSIntent = new Intent(Intent.ACTION_SENDTO, uri);
+
+                // add the message at the sms_body extra field
+
+                smsSIntent.putExtra("sms_body", " ");
+
+                try {
+
+                    startActivity(smsSIntent);
+
+                } catch (Exception ex) {
+
+                    Toast.makeText(CostoServicio_NoLogin_3.this, "ERROR - SMS no enviado...",
+
+                            Toast.LENGTH_LONG).show();
+
+                    ex.printStackTrace();
+
+                }
+
+            }
+
+
+
+
+
+
+
+        });
+
+    }
+
+    public void addListenerCompartirButton() {
 
         userButton = (ImageButton) findViewById(R.id.userButton);
 
@@ -137,46 +197,82 @@ public class CostoServicio_NoLogin_3 extends Activity {
             @Override
             public void onClick(View arg0) {
 
-                ParseQuery<ParseObject> query = ParseQuery.getQuery("datos_contacto");
-                query.whereEqualTo("tipo_contacto", "URL_compartir_GooglePlay");
-                query.findInBackground(new FindCallback<ParseObject>() {
-                    public void done(List<ParseObject> scoreList, ParseException e) {
-                        if (e == null) {
-                            int len = scoreList.size();
-                            for (int i = 0; i < len; i++) {
-                                ParseObject p = scoreList.get(i);
-                                String email = p.getString("dato_contacto");
 
 
-                                Log.d("EMAIL FINAL", "EMAIL: " + email);
 
-                                subject = "Android App de PEDRO VILLAREJO";
-                                body = "Te recomiendo que descargues la Android App de PEDRO VILLAREJO. Disponible en :" + email;
-                                recipient = email;
-                                Intent enviar = new Intent(Intent.ACTION_SEND, Uri.parse("mailto:"));
-                                // prompts email clients only
-                                enviar.setType("message/rfc822");
 
-                                //enviar.putExtra(Intent.EXTRA_EMAIL, new String[]{email});
-                                enviar.putExtra(Intent.EXTRA_SUBJECT, "Android App de PEDRO VILLAREJO");
-                                enviar.putExtra(Intent.EXTRA_TEXT, "Te recomiendo que descargues la Android App de PEDRO VILLAREJO. Disponible en :" + email);
+                subject = "Android App Mi Asesor Automotriz";
+                body = "Te recomiendo que descargues la Android App Mi Asesor Automotriz. Disponible en :" + google_play_agencia;
+                recipient = google_play_agencia;
+                Intent enviar = new Intent(Intent.ACTION_SEND, Uri.parse("mailto:"));
+                // prompts email clients only
+                enviar.setType("message/rfc822");
 
-                                try {
-                                    // the user can choose the email client
-                                    startActivity(Intent.createChooser(enviar, "Seleccione una aplicación para enviar el email..."));
+                //enviar.putExtra(Intent.EXTRA_EMAIL, new String[]{email});
+                enviar.putExtra(Intent.EXTRA_SUBJECT, "Android App Mi Asesor Automotriz");
+                enviar.putExtra(Intent.EXTRA_TEXT, "Te recomiendo que descargues la Android App Mi Asesor Automotriz. Disponible en: " + google_play_agencia);
 
-                                } catch (android.content.ActivityNotFoundException ex) {
-                                    Toast.makeText(CostoServicio_NoLogin_3.this, "No dispone de aplicaciones email.",
-                                            Toast.LENGTH_LONG).show();
-                                }
+                try {
+                    // the user can choose the email client
+                    startActivity(Intent.createChooser(enviar, "Seleccione una aplicación para enviar el email..."));
+
+                } catch (android.content.ActivityNotFoundException ex) {
+                    Toast.makeText(CostoServicio_NoLogin_3.this, "No dispone de aplicaciones email.",
+                            Toast.LENGTH_LONG).show();
+                }
+
+
+            }
+
+
+
+
+
+
+
+        });
+
+    }
+
+    public void addListenerLlamarButton() {
+
+        llamarButton = (ImageButton) findViewById(R.id.llamarButton);
+
+        llamarButton.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View arg0) {
+
+
+
+                new AlertDialog.Builder(CostoServicio_NoLogin_3.this)
+                        .setTitle("Marcar a tu Asesor")
+                        .setMessage("Estas seguro de que quieres marcar a "+nombre_asesor+" "+apellidos_asesor+"?")
+                        .setPositiveButton(android.R.string.yes, new DialogInterface.OnClickListener() {
+                            public void onClick(DialogInterface dialog, int which) {
+                                // continue with delete
+                                Log.d("score", "Celular: " + tel_asesor);
+
+                                Intent intent = new Intent(Intent.ACTION_CALL, Uri.parse("tel:" + tel_asesor));
+
+
+                                startActivity(intent);
+
 
 
                             }
-                        } else {
-                            Log.d("score", "Error: " + e.getMessage());
-                        }
-                    }
-                });
+                        })
+                        .setNegativeButton(android.R.string.no, new DialogInterface.OnClickListener() {
+                            public void onClick(DialogInterface dialog, int which) {
+                                // do nothing
+                            }
+                        })
+                        .setIcon(android.R.drawable.ic_dialog_alert)
+                        .show();
+
+
+
+
 
 
             }
@@ -184,6 +280,7 @@ public class CostoServicio_NoLogin_3 extends Activity {
         });
 
     }
+
     public void addListenerHomeButton() {
 
         homeButton = (ImageButton) findViewById(R.id.homeButton);
@@ -203,107 +300,6 @@ public class CostoServicio_NoLogin_3 extends Activity {
 
     }
 
-    public void addListenerLlamarButton() {
-
-        llamarButton = (ImageButton) findViewById(R.id.llamarButton);
-
-        llamarButton.setOnClickListener(new View.OnClickListener() {
-
-            @Override
-            public void onClick(View arg0) {
-
-                ParseQuery<ParseObject> query = ParseQuery.getQuery("datos_contacto");
-                query.whereEqualTo("tipo_contacto", "celular");
-                query.findInBackground(new FindCallback<ParseObject>() {
-                    public void done(List<ParseObject> scoreList, ParseException e) {
-                        if (e == null) {
-                            int len = scoreList.size();
-                            for (int i = 0; i < len; i++) {
-                                ParseObject p = scoreList.get(i);
-                                String numero = p.getString("dato_contacto");
-
-                                Log.d("score", "Celular: " + numero);
-
-                                Intent intent = new Intent(Intent.ACTION_CALL, Uri.parse("tel:" + numero));
-
-
-                                startActivity(intent);
-
-                            }
-                        } else {
-                            Log.d("score", "Error: " + e.getMessage());
-                        }
-                    }
-                });
-
-
-            }
-
-        });
-
-    }
-
-    public void addListenerCitaButton() {
-
-        citaButton = (ImageButton) findViewById(R.id.citaButton);
-
-        citaButton.setOnClickListener(new View.OnClickListener() {
-
-            @Override
-            public void onClick(View arg0) {
-
-                ParseQuery<ParseObject> query = ParseQuery.getQuery("datos_contacto");
-                query.whereEqualTo("tipo_contacto", "celular_sms");
-                query.findInBackground(new FindCallback<ParseObject>() {
-                    public void done(List<ParseObject> scoreList, ParseException e) {
-                        if (e == null) {
-                            int len = scoreList.size();
-                            for (int i = 0; i < len; i++) {
-                                ParseObject p = scoreList.get(i);
-                                String celular_sms = p.getString("dato_contacto");
-
-
-                                Log.d("CELULAR", "CELULAR: " + celular_sms);
-
-// Initialize SmsManager Object// add the phone number in the data
-
-                                Uri uri = Uri.parse("smsto:" + celular_sms);
-
-
-                                Intent smsSIntent = new Intent(Intent.ACTION_SENDTO, uri);
-
-                                // add the message at the sms_body extra field
-
-                                smsSIntent.putExtra("sms_body", "  ");
-
-                                try {
-
-                                    startActivity(smsSIntent);
-
-                                } catch (Exception ex) {
-
-                                    Toast.makeText(CostoServicio_NoLogin_3.this, "ERROR - SMS no enviado...",
-
-                                            Toast.LENGTH_LONG).show();
-
-                                    ex.printStackTrace();
-
-                                }
-
-                            }
-                        } else {
-                            Log.d("score", "Error: " + e.getMessage());
-                        }
-                    }
-                });
-
-
-
-            }
-
-        });
-
-    }
 
 
     public void addListenerEmailButton() {
@@ -316,47 +312,31 @@ public class CostoServicio_NoLogin_3 extends Activity {
             public void onClick(View arg0) {
 
 
-                ParseQuery<ParseObject> query = ParseQuery.getQuery("datos_contacto");
-                query.whereEqualTo("tipo_contacto", "email_contacto");
-                query.findInBackground(new FindCallback<ParseObject>() {
-                    public void done(List<ParseObject> scoreList, ParseException e) {
-                        if (e == null) {
-                            int len = scoreList.size();
-                            for (int i = 0; i < len; i++) {
-                                ParseObject p = scoreList.get(i);
-                                String email = p.getString("dato_contacto");
+
+                Log.d("EMAIL FINAL", "EMAIL: " + email_asesor);
 
 
-                                Log.d("EMAIL FINAL", "EMAIL: " + email);
+                Intent enviar = new Intent(Intent.ACTION_SEND, Uri.parse("mailto:"));
+                // prompts email clients only
+                enviar.setType("message/rfc822");
 
+                enviar.putExtra(Intent.EXTRA_EMAIL, new String[]{email_asesor});
+                enviar.putExtra(Intent.EXTRA_SUBJECT, "Enviado desde la Android App Mi Asesor Automotriz");
+                enviar.putExtra(Intent.EXTRA_TEXT, " ");
 
-                                Intent enviar = new Intent(Intent.ACTION_SEND, Uri.parse("mailto:"));
-                                // prompts email clients only
-                                enviar.setType("message/rfc822");
+                try {
+                    // the user can choose the email client
+                    startActivity(Intent.createChooser(enviar, "Seleccione una aplicación para enviar el email..."));
 
-                                enviar.putExtra(Intent.EXTRA_EMAIL, new String[]{email});
-                                enviar.putExtra(Intent.EXTRA_SUBJECT, "Enviado desde la Android App PEDRO VILLAREJO");
-                                enviar.putExtra(Intent.EXTRA_TEXT, "  ");
+                } catch (android.content.ActivityNotFoundException ex) {
+                    Toast.makeText(CostoServicio_NoLogin_3.this, "No dispone de aplicaciones email.",
+                            Toast.LENGTH_LONG).show();
+                }
 
-
-                                try {
-                                    // the user can choose the email client
-                                    startActivity(Intent.createChooser(enviar, "Seleccione una aplicación para enviar el email..."));
-
-                                } catch (android.content.ActivityNotFoundException ex) {
-                                    Toast.makeText(CostoServicio_NoLogin_3.this, "No dispone de aplicaciones email.",
-                                            Toast.LENGTH_LONG).show();
-                                }
-
-
-                            }
-                        } else {
-                            Log.d("score", "Error: " + e.getMessage());
-                        }
-                    }
-                });
 
             }
+
+
 
         });
 
@@ -368,11 +348,11 @@ public class CostoServicio_NoLogin_3 extends Activity {
 
         continuarButton = (Button) findViewById(R.id.seguir);
 
-
-
-
-
         continuarButton.setOnClickListener(new View.OnClickListener() {
+
+
+
+
 
 
             @Override
@@ -383,20 +363,53 @@ public class CostoServicio_NoLogin_3 extends Activity {
                 Log.d("CITA A SERVICIO3", "COMENTARIOS: " + comentarios);
 
 
-                ParseObject cita_servicio = new ParseObject("citas_servicio");
-                cita_servicio.put("Nombre_cliente", nombre);
-                cita_servicio.put("email_cliente", email);
-                cita_servicio.put("celular_cliente", cel);
-                cita_servicio.put("tel_cliente", tel);
-                cita_servicio.put("vehiculo_cliente", vehiculo);
-                cita_servicio.put("ano_vehiculo", ano);
-
-                cita_servicio.put("comentarios", comentarios);
-                cita_servicio.put("kilometros", kilometros);
-                cita_servicio.saveInBackground();
+                random = randomAlphaNumeric(6);
 
 
-                progress = ProgressDialog.show(CostoServicio_NoLogin_3.this, "Consulta costo servicio",
+
+
+
+                StringRequest stringRequest = new StringRequest(Request.Method.POST, REGISTER_URL,
+                        new Response.Listener<String>() {
+                            @Override
+                            public void onResponse(String response) {
+                                Log.d("CITA A SERVICIO3", "ESTOY AQUI: " +response);
+
+                            }
+                        },
+                        new Response.ErrorListener() {
+                            @Override
+                            public void onErrorResponse(VolleyError error) {
+                                  }
+                        }){
+                    @Override
+                    protected Map<String,String> getParams(){
+                        Map<String,String> params = new HashMap<String, String>();
+                        params.put(KEY_NOMBRE_CLIENTE,nombre);
+                        params.put(KEY_EMAIL_CLIENTE,email);
+                        params.put(KEY_CEL_CLIENTE,cel);
+                        params.put(KEY_MODELO,vehiculo);
+                        params.put(KEY_ANO,ano);
+
+                        params.put(KEY_KILOMETROS,kilometros);
+
+                        params.put(KEY_COMENTARIOS,comentarios);
+                        params.put(KEY_CODIGO,random);
+                        params.put(KEY_AGENCIA,codigo_agencia);
+
+
+
+
+                        return params;
+                    }
+
+                };
+
+                RequestQueue requestQueue = Volley.newRequestQueue(CostoServicio_NoLogin_3.this);
+                requestQueue.add(stringRequest);
+
+
+                progress = ProgressDialog.show(CostoServicio_NoLogin_3.this, "Costo de Servicio "+random,
                         "Enviando datos...", true);
 
                 new Thread(new Runnable() {
@@ -407,15 +420,16 @@ public class CostoServicio_NoLogin_3 extends Activity {
 
                         Mail m = new Mail("appautospv@gmail.com", "cm10052016");
 
-                        String[] toArr = {email_envio_cita};
+                        String[] toArr = {email_asesor};
                         m.setTo(toArr);
-                        m.setFrom(email_emisor);
-                        m.setSubject("CONSULTA COSTO DE SERVICIO DESDE LA ANDROID APP -PEDRO VILLAREJO-");
-                        m.setBody("CONSULTA COSTO DE SERVICIO\n\n"
-                                + "Cliente: " + nombre
+                        m.setFrom(email_asesor);
+                        m.setSubject("Cita No. " + random + " SOLICITUD DE COSTO DE SERVICIO DESDE LA ANDROID APP -MI ASESOR AUTOMOTRIZ- ");
+                        m.setBody("Cita No. " + random+" SOLICITUD DE COSTO DE SERVICIO  \n\n"
+                                + "Número de solicitud de costo: " + random
+                                + "\nCliente: " + nombre
                                 + "\nEmail: " + email
                                 + "\nCelular: " + cel
-                                + "\nTeléfono: " + tel
+
                                 + "\nVehiculo: " + vehiculo
                                 + "\nAño: " + ano
                                 + "\nKilómetros aprox.: " + kilometros
@@ -427,10 +441,8 @@ public class CostoServicio_NoLogin_3 extends Activity {
 
                             if (m.send()) {
 
-                                Toast.makeText(CostoServicio_NoLogin_3.this, "Sent Email.", Toast.LENGTH_LONG).show();
 
                             } else {
-                                Toast.makeText(CostoServicio_NoLogin_3.this, "Email was not sent.", Toast.LENGTH_LONG).show();
                             }
                         } catch (Exception e) {
                             //Toast.makeText(MailApp.this, "There was a problem sending the email.", Toast.LENGTH_LONG).show();
@@ -459,6 +471,17 @@ public class CostoServicio_NoLogin_3 extends Activity {
 
 
     }
+
+    public static String randomAlphaNumeric(int count) {
+        StringBuilder builder = new StringBuilder();
+        while (count-- != 0) {
+            int character = (int)(Math.random()*ALPHA_NUMERIC_STRING.length());
+            builder.append(ALPHA_NUMERIC_STRING.charAt(character));
+        }
+        return builder.toString();
+    }
+
+
 
 
     public void addListenerCancelerButton() {
