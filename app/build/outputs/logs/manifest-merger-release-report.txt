@@ -10,7 +10,7 @@ ADDED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotri
 		INJECTED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml
 	android:versionCode
-		ADDED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml:4:5-28
+		ADDED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml:4:5-29
 		INJECTED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\src\main\AndroidManifest.xml
 	xmlns:android

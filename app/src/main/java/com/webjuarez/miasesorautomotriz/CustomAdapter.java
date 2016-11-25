@@ -209,12 +209,38 @@ public class CustomAdapter extends BaseAdapter {
                     SharedPreferences prefs =
                             context.getSharedPreferences("MisPreferencias", Context.MODE_PRIVATE);
 
-                    String auxilio_vial_mex = prefs.getString("auxilio_vial_mex", "NO HA SELECCIONADO NINGUNA WEB");
+                    final String auxilio_vial_mex = prefs.getString("auxilio_vial_mex", "NO HA SELECCIONADO NINGUNA WEB");
+                    nombre_asesor = prefs.getString("nombre_asesor", "NO HA SELECCIONADO NINGUNA WEB");
+                    apellidos_asesor = prefs.getString("apellidos_asesor", "NO HA SELECCIONADO NINGUNA WEB");
 
-                    Log.d("CELULAR", "CELULAR: " + auxilio_vial_mex);
 
-                    Intent intent = new Intent(Intent.ACTION_CALL, Uri.parse("tel:" + auxilio_vial_mex));
-                    context.startActivity(intent);
+
+                    new AlertDialog.Builder(context)
+                            .setTitle("Marcar a tu Asesor")
+                            .setMessage("Estas seguro de que quieres marcar al Auxilio Vial en México?")
+                            .setPositiveButton(android.R.string.yes, new DialogInterface.OnClickListener() {
+                                public void onClick(DialogInterface dialog, int which) {
+                                    // continue with delete
+                                    Log.d("score", "Celular: " + auxilio_vial_mex);
+
+                                    Intent intent = new Intent(Intent.ACTION_CALL, Uri.parse("tel:" + auxilio_vial_mex));
+
+
+                                    context.startActivity(intent);
+
+
+
+                                }
+                            })
+                            .setNegativeButton(android.R.string.no, new DialogInterface.OnClickListener() {
+                                public void onClick(DialogInterface dialog, int which) {
+                                    // do nothing
+                                }
+                            })
+                            .setIcon(android.R.drawable.ic_dialog_alert)
+                            .show();
+
+
 
 
                 }
@@ -224,12 +250,38 @@ public class CustomAdapter extends BaseAdapter {
                     SharedPreferences prefs =
                             context.getSharedPreferences("MisPreferencias", Context.MODE_PRIVATE);
 
-                    String auxilio_vial_usa = prefs.getString("auxilio_vial_usa", "NO HA SELECCIONADO NINGUNA WEB");
+                    final String auxilio_vial_usa = prefs.getString("auxilio_vial_usa", "NO HA SELECCIONADO NINGUNA WEB");
+                    nombre_asesor = prefs.getString("nombre_asesor", "NO HA SELECCIONADO NINGUNA WEB");
+                    apellidos_asesor = prefs.getString("apellidos_asesor", "NO HA SELECCIONADO NINGUNA WEB");
 
-                    Log.d("CELULAR", "CELULAR: " + auxilio_vial_usa);
 
-                    Intent intent = new Intent(Intent.ACTION_CALL, Uri.parse("tel:" + auxilio_vial_usa));
-                    context.startActivity(intent);
+
+                    new AlertDialog.Builder(context)
+                            .setTitle("Marcar a tu Asesor")
+                            .setMessage("Estas seguro de que quieres marcar al Auxilio Vial en USA?")
+                            .setPositiveButton(android.R.string.yes, new DialogInterface.OnClickListener() {
+                                public void onClick(DialogInterface dialog, int which) {
+                                    // continue with delete
+                                    Log.d("score", "Celular: " + auxilio_vial_usa);
+
+                                    Intent intent = new Intent(Intent.ACTION_CALL, Uri.parse("tel:" + auxilio_vial_usa));
+
+
+                                    context.startActivity(intent);
+
+
+
+                                }
+                            })
+                            .setNegativeButton(android.R.string.no, new DialogInterface.OnClickListener() {
+                                public void onClick(DialogInterface dialog, int which) {
+                                    // do nothing
+                                }
+                            })
+                            .setIcon(android.R.drawable.ic_dialog_alert)
+                            .show();
+
+
 
 
                 }

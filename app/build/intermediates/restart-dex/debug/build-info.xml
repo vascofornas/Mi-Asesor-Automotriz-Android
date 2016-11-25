@@ -5,40 +5,33 @@
     density="xhdpi"
     format="8"
     plugin-version="2.2.2"
-    timestamp="167084162510761"
+    timestamp="19863408210050"
     token="5610948756556992910"
-    verifier="COMPATIBLE" >
+    verifier="MANIFEST_FILE_CHANGE" >
 
     <task
         name="javac"
-        duration="13053" />
+        duration="18992" />
     <task
         name="instant-run-dex"
-        duration="1337" />
+        duration="0" />
     <task
         name="instant-run-transform"
-        duration="224" />
+        duration="126" />
     <task
         name="verifier"
-        duration="106" />
+        duration="6" />
 
     <artifact
-        location="C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\build\intermediates\reload-dex\debug\classes.dex"
-        type="RELOAD_DEX" />
+        location="C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\build\outputs\apk\app-debug.apk"
+        type="MAIN" />
 
     <build
-        timestamp="166832166228748"
-        verifier="FULL_BUILD_REQUESTED" >
+        timestamp="19863408210050"
+        verifier="MANIFEST_FILE_CHANGE" >
         <artifact
             location="C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\build\outputs\apk\app-debug.apk"
             type="MAIN" />
-    </build>
-    <build
-        timestamp="167084162510761"
-        verifier="COMPATIBLE" >
-        <artifact
-            location="C:\Users\Modesto\git\Mi-Asesor-Automotriz-Android\Mi-Asesor-Automotriz-Android\app\build\intermediates\reload-dex\debug\classes.dex"
-            type="RELOAD_DEX" />
     </build>
 
 </instant-run>

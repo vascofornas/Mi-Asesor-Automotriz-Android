@@ -186,11 +186,12 @@ public class Agencia extends Activity  {
                 editor.putString("autos_nuevos", autos_nuevos);
                 editor.putString("financiera", financiera);
                 editor.putString("auxilio_vial_mex", auxilio_vial_mex);
+                editor.putString("auxilio_vial_usa", auxilio_vial_usa);
                 editor.putString("aseguradora1", aseguradora1);
                 editor.putString("aseguradora2", aseguradora2);
                 editor.putString("aseguradora3", aseguradora3);
                 editor.putString("aseguradora4", aseguradora4);
-                editor.putString("aseguradora1", aseguradora5);
+                editor.putString("aseguradora5", aseguradora5);
                 editor.putString("aseguradora6", aseguradora6);
 
 
