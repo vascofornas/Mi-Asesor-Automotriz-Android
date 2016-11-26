@@ -15,7 +15,7 @@ public class Config {
     public static final String KEY_FIN = "financiera";
     public static final String KEY_MEX = "auxilio_vial_mex";
     public static final String KEY_USA = "auxilio_vial_usa";
-    public static final String KEY_ASE_1 = "aseguradora,inbursa";
+    public static final String KEY_ASE_1 = "aseguradora_inbursa";
     public static final String KEY_ASE_2 = "aseguradora_gnp";
     public static final String KEY_ASE_3 = "aseguradora_assistance";
     public static final String KEY_ASE_4 = "aseguradora_mapfre";

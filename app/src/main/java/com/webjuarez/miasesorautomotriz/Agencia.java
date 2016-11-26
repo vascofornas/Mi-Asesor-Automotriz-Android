@@ -148,6 +148,13 @@ public class Agencia extends Activity  {
             aseguradora4 = collegeData.getString(Config.KEY_ASE_4);
             aseguradora5 = collegeData.getString(Config.KEY_ASE_5);
             aseguradora6 = collegeData.getString(Config.KEY_ASE_6);
+            Log.d("score", "TEL ASEGURADORA 01: " +aseguradora1);
+            Log.d("score", "TEL ASEGURADORA 02: " +aseguradora2);
+            Log.d("score", "TEL ASEGURADORA 03: " +aseguradora3);
+            Log.d("score", "TEL ASEGURADORA 04: " +aseguradora4);
+            Log.d("score", "TEL ASEGURADORA 05: " +aseguradora5);
+            Log.d("score", "TEL ASEGURADORA 06: " +aseguradora6);
+
         } catch (JSONException e) {
             e.printStackTrace();
         }

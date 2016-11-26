@@ -15,82 +15,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="61d9165a-ed25-4228-babf-01fd64fc10c7" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Parse_1_3_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/accessibility_test_framework_1_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/activation.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/additionnal.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/android_android_22.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/android_android_24.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/ant_1_8_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/ant_launcher_1_8_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/appcompat_v7_23_1_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/asm_5_0_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/asm_analysis_5_0_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/asm_commons_5_0_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/asm_tree_5_0_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/asm_util_5_0_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/bcprov_jdk16_1_46.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/hamcrest_core_1_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/hamcrest_core_1_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/icu4j_53_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/junit_4_10.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/junit_4_12.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/mail.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/maven_ant_tasks_2_1_3.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/mediarouter_v7_23_0_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/mockito_core_1_9_5.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/objenesis_1_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_8_4_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_ads_8_4_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_analytics_8_4_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_appindexing_8_4_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_appinvite_8_4_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_appstate_8_4_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_auth_8_4_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_base_8_4_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_basement_8_4_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_cast_8_4_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_drive_8_4_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_fitness_8_4_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_games_8_4_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_gcm_8_4_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_identity_8_4_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_location_8_4_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_maps_8_4_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_measurement_8_4_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_nearby_8_4_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_panorama_8_4_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_plus_8_4_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_safetynet_8_4_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_vision_8_4_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_wallet_8_4_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/play_services_wearable_8_4_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/pushbots_lib_2_0_13.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/robolectric_3_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/robolectric_annotations_3_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/robolectric_resources_3_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/robolectric_utils_3_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/shadows_core_3_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/sqlite4java_0_282.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_annotations_23_1_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_v4_23_1_1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/vtd_xml_2_11.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/webjuarez/miasesorautomotriz/Seguros$10$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/webjuarez/miasesorautomotriz/Seguros$7$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/webjuarez/miasesorautomotriz/Seguros$9$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/webjuarez/miasesorautomotriz/Seguros$10$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/webjuarez/miasesorautomotriz/Seguros$7$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/webjuarez/miasesorautomotriz/Seguros$9$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/webjuarez/miasesorautomotriz/Seguros$10$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/webjuarez/miasesorautomotriz/Seguros$7$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/webjuarez/miasesorautomotriz/Seguros$9$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/reload-dex/debug/classes.dex" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/reload-dex/debug/classes.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/webjuarez/miasesorautomotriz/Seguros$10$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/webjuarez/miasesorautomotriz/Seguros$7$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/webjuarez/miasesorautomotriz/Seguros$9$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/android/tools/fd/runtime/AppPatchesLoaderImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/4000/5/enhanced/com/webjuarez/miasesorautomotriz/Tramites_Online_3$6$4$override.class" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/app/build/intermediates/builds/debug/19239675914152/classes.dex" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/cache.properties.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/cache.properties.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileHashes.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileHashes.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/taskArtifacts/fileSnapshots.bin" />
@@ -104,43 +29,61 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_app_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_app_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_app_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_app_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.bin" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_app_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_app_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_volley_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_volley_compileReleaseJavaWithJavac/localClassSetAnalysis/localClassSetAnalysis.lock" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_volley_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" afterPath="$PROJECT_DIR$/.gradle/2.14.1/tasks/_volley_compileReleaseJavaWithJavac/localJarClasspathSnapshot/localJarClasspathSnapshot.lock" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app-release.apk" afterPath="$PROJECT_DIR$/app/app-release.apk" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/webjuarez/miasesorautomotriz/Agencia$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/webjuarez/miasesorautomotriz/Agencia$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/webjuarez/miasesorautomotriz/Agencia.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/webjuarez/miasesorautomotriz/Agencia.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/webjuarez/miasesorautomotriz/BuildConfig.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/webjuarez/miasesorautomotriz/BuildConfig.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/webjuarez/miasesorautomotriz/CustomAdapter$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/webjuarez/miasesorautomotriz/CustomAdapter$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/webjuarez/miasesorautomotriz/CustomAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/webjuarez/miasesorautomotriz/CustomAdapter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/webjuarez/miasesorautomotriz/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/webjuarez/miasesorautomotriz/R$id.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/webjuarez/miasesorautomotriz/Config.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/webjuarez/miasesorautomotriz/Config.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/webjuarez/miasesorautomotriz/Seguros$1$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/webjuarez/miasesorautomotriz/Seguros$1$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/webjuarez/miasesorautomotriz/Seguros$1$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/webjuarez/miasesorautomotriz/Seguros$1$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/webjuarez/miasesorautomotriz/Seguros$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/webjuarez/miasesorautomotriz/Seguros$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/webjuarez/miasesorautomotriz/Seguros$10.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/webjuarez/miasesorautomotriz/Seguros$10.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/webjuarez/miasesorautomotriz/Seguros$11$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/webjuarez/miasesorautomotriz/Seguros$11$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/webjuarez/miasesorautomotriz/Seguros$11$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/webjuarez/miasesorautomotriz/Seguros$11$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/webjuarez/miasesorautomotriz/Seguros$11.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/webjuarez/miasesorautomotriz/Seguros$11.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/webjuarez/miasesorautomotriz/Seguros$2$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/webjuarez/miasesorautomotriz/Seguros$2$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/webjuarez/miasesorautomotriz/Seguros$2$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/webjuarez/miasesorautomotriz/Seguros$2$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/webjuarez/miasesorautomotriz/Seguros$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/webjuarez/miasesorautomotriz/Seguros$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/webjuarez/miasesorautomotriz/Seguros$3$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/webjuarez/miasesorautomotriz/Seguros$3$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/webjuarez/miasesorautomotriz/Seguros$3$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/webjuarez/miasesorautomotriz/Seguros$3$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/webjuarez/miasesorautomotriz/Seguros$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/webjuarez/miasesorautomotriz/Seguros$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/webjuarez/miasesorautomotriz/Seguros$4$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/webjuarez/miasesorautomotriz/Seguros$4$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/webjuarez/miasesorautomotriz/Seguros$4$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/webjuarez/miasesorautomotriz/Seguros$4$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/webjuarez/miasesorautomotriz/Seguros$4.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/webjuarez/miasesorautomotriz/Seguros$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/webjuarez/miasesorautomotriz/Seguros$5$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/webjuarez/miasesorautomotriz/Seguros$5$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/webjuarez/miasesorautomotriz/Seguros$5$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/webjuarez/miasesorautomotriz/Seguros$5$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/webjuarez/miasesorautomotriz/Seguros$5.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/webjuarez/miasesorautomotriz/Seguros$5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/webjuarez/miasesorautomotriz/Seguros$6$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/webjuarez/miasesorautomotriz/Seguros$6$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/webjuarez/miasesorautomotriz/Seguros$6$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/webjuarez/miasesorautomotriz/Seguros$6$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/webjuarez/miasesorautomotriz/Seguros$6.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/webjuarez/miasesorautomotriz/Seguros$6.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/webjuarez/miasesorautomotriz/Seguros$7.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/webjuarez/miasesorautomotriz/Seguros$7.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/webjuarez/miasesorautomotriz/Seguros$8.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/webjuarez/miasesorautomotriz/Seguros$8.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/webjuarez/miasesorautomotriz/Seguros$9.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/webjuarez/miasesorautomotriz/Seguros$9.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/webjuarez/miasesorautomotriz/Seguros.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/webjuarez/miasesorautomotriz/Seguros.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/webjuarez/miasesorautomotriz/Tramites_Online_3$6$4.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/debug/com/webjuarez/miasesorautomotriz/Tramites_Online_3$6$4.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/webjuarez/miasesorautomotriz/Agencia$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/webjuarez/miasesorautomotriz/Agencia$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/webjuarez/miasesorautomotriz/Agencia.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/webjuarez/miasesorautomotriz/Agencia.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/webjuarez/miasesorautomotriz/BuildConfig.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/webjuarez/miasesorautomotriz/BuildConfig.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/webjuarez/miasesorautomotriz/CustomAdapter$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/webjuarez/miasesorautomotriz/CustomAdapter$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/webjuarez/miasesorautomotriz/CustomAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/webjuarez/miasesorautomotriz/CustomAdapter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/webjuarez/miasesorautomotriz/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/webjuarez/miasesorautomotriz/R$id.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/webjuarez/miasesorautomotriz/Config.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/webjuarez/miasesorautomotriz/Config.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/webjuarez/miasesorautomotriz/Seguros$1$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/webjuarez/miasesorautomotriz/Seguros$1$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/webjuarez/miasesorautomotriz/Seguros$1$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/webjuarez/miasesorautomotriz/Seguros$1$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/webjuarez/miasesorautomotriz/Seguros$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/webjuarez/miasesorautomotriz/Seguros$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/webjuarez/miasesorautomotriz/Seguros$10.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/webjuarez/miasesorautomotriz/Seguros$10.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/webjuarez/miasesorautomotriz/Seguros$11$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/webjuarez/miasesorautomotriz/Seguros$11$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/webjuarez/miasesorautomotriz/Seguros$11$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/webjuarez/miasesorautomotriz/Seguros$11$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/webjuarez/miasesorautomotriz/Seguros$11.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/webjuarez/miasesorautomotriz/Seguros$11.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/webjuarez/miasesorautomotriz/Seguros$2$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/webjuarez/miasesorautomotriz/Seguros$2$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/webjuarez/miasesorautomotriz/Seguros$2$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/webjuarez/miasesorautomotriz/Seguros$2$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/webjuarez/miasesorautomotriz/Seguros$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/webjuarez/miasesorautomotriz/Seguros$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/webjuarez/miasesorautomotriz/Seguros$3$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/webjuarez/miasesorautomotriz/Seguros$3$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/webjuarez/miasesorautomotriz/Seguros$3$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/webjuarez/miasesorautomotriz/Seguros$3$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/webjuarez/miasesorautomotriz/Seguros$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/webjuarez/miasesorautomotriz/Seguros$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/webjuarez/miasesorautomotriz/Seguros$4$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/webjuarez/miasesorautomotriz/Seguros$4$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/webjuarez/miasesorautomotriz/Seguros$4$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/webjuarez/miasesorautomotriz/Seguros$4$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/webjuarez/miasesorautomotriz/Seguros$4.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/webjuarez/miasesorautomotriz/Seguros$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/webjuarez/miasesorautomotriz/Seguros$5$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/webjuarez/miasesorautomotriz/Seguros$5$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/webjuarez/miasesorautomotriz/Seguros$5$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/webjuarez/miasesorautomotriz/Seguros$5$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/webjuarez/miasesorautomotriz/Seguros$5.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/webjuarez/miasesorautomotriz/Seguros$5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/webjuarez/miasesorautomotriz/Seguros$6$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/webjuarez/miasesorautomotriz/Seguros$6$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/webjuarez/miasesorautomotriz/Seguros$6$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/webjuarez/miasesorautomotriz/Seguros$6$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/webjuarez/miasesorautomotriz/Seguros$6.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/webjuarez/miasesorautomotriz/Seguros$6.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/webjuarez/miasesorautomotriz/Seguros$7.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/webjuarez/miasesorautomotriz/Seguros$7.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/webjuarez/miasesorautomotriz/Seguros$8.class" afterPath="$PROJECT_DIR$/app/build/intermediates/classes/release/com/webjuarez/miasesorautomotriz/Seguros$8.class" />
@@ -151,24 +94,33 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/webjuarez/miasesorautomotriz/Agencia$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/webjuarez/miasesorautomotriz/Agencia$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/webjuarez/miasesorautomotriz/Agencia.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/webjuarez/miasesorautomotriz/Agencia.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/webjuarez/miasesorautomotriz/BuildConfig.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/webjuarez/miasesorautomotriz/BuildConfig.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/webjuarez/miasesorautomotriz/CustomAdapter$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/webjuarez/miasesorautomotriz/CustomAdapter$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/webjuarez/miasesorautomotriz/CustomAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/webjuarez/miasesorautomotriz/CustomAdapter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/webjuarez/miasesorautomotriz/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/webjuarez/miasesorautomotriz/R$id.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/webjuarez/miasesorautomotriz/Config.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/webjuarez/miasesorautomotriz/Config.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/webjuarez/miasesorautomotriz/Seguros$1$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/webjuarez/miasesorautomotriz/Seguros$1$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/webjuarez/miasesorautomotriz/Seguros$1$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/webjuarez/miasesorautomotriz/Seguros$1$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/webjuarez/miasesorautomotriz/Seguros$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/webjuarez/miasesorautomotriz/Seguros$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/webjuarez/miasesorautomotriz/Seguros$10.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/webjuarez/miasesorautomotriz/Seguros$10.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/webjuarez/miasesorautomotriz/Seguros$11$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/webjuarez/miasesorautomotriz/Seguros$11$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/webjuarez/miasesorautomotriz/Seguros$11$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/webjuarez/miasesorautomotriz/Seguros$11$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/webjuarez/miasesorautomotriz/Seguros$11.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/webjuarez/miasesorautomotriz/Seguros$11.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/webjuarez/miasesorautomotriz/Seguros$2$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/webjuarez/miasesorautomotriz/Seguros$2$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/webjuarez/miasesorautomotriz/Seguros$2$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/webjuarez/miasesorautomotriz/Seguros$2$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/webjuarez/miasesorautomotriz/Seguros$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/webjuarez/miasesorautomotriz/Seguros$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/webjuarez/miasesorautomotriz/Seguros$3$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/webjuarez/miasesorautomotriz/Seguros$3$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/webjuarez/miasesorautomotriz/Seguros$3$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/webjuarez/miasesorautomotriz/Seguros$3$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/webjuarez/miasesorautomotriz/Seguros$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/webjuarez/miasesorautomotriz/Seguros$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/webjuarez/miasesorautomotriz/Seguros$4$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/webjuarez/miasesorautomotriz/Seguros$4$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/webjuarez/miasesorautomotriz/Seguros$4$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/webjuarez/miasesorautomotriz/Seguros$4$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/webjuarez/miasesorautomotriz/Seguros$4.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/webjuarez/miasesorautomotriz/Seguros$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/webjuarez/miasesorautomotriz/Seguros$5$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/webjuarez/miasesorautomotriz/Seguros$5$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/webjuarez/miasesorautomotriz/Seguros$5$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/webjuarez/miasesorautomotriz/Seguros$5$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/webjuarez/miasesorautomotriz/Seguros$5.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/webjuarez/miasesorautomotriz/Seguros$5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/webjuarez/miasesorautomotriz/Seguros$6$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/webjuarez/miasesorautomotriz/Seguros$6$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/webjuarez/miasesorautomotriz/Seguros$6$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/webjuarez/miasesorautomotriz/Seguros$6$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/webjuarez/miasesorautomotriz/Seguros$6.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/webjuarez/miasesorautomotriz/Seguros$6.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/webjuarez/miasesorautomotriz/Seguros$7.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/webjuarez/miasesorautomotriz/Seguros$7.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/webjuarez/miasesorautomotriz/Seguros$8.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/webjuarez/miasesorautomotriz/Seguros$8.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/webjuarez/miasesorautomotriz/Seguros$9.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/webjuarez/miasesorautomotriz/Seguros$9.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/webjuarez/miasesorautomotriz/Seguros.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/webjuarez/miasesorautomotriz/Seguros.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/webjuarez/miasesorautomotriz/Tramites_Online_3$6$4.class" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental-verifier/debug/com/webjuarez/miasesorautomotriz/Tramites_Online_3$6$4.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/zip-cache/voGXdEE0CG1ER2UEjwg4Q87IuMs=" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageDebug/zip-cache/voGXdEE0CG1ER2UEjwg4Q87IuMs=" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageInstantRunResourcesDebug/zip-cache/voGXdEE0CG1ER2UEjwg4Q87IuMs=" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageInstantRunResourcesDebug/zip-cache/voGXdEE0CG1ER2UEjwg4Q87IuMs=" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageRelease/zip-cache/+qYDt_VSVwhPQeJhxlvNOvW64j0=" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageRelease/zip-cache/+qYDt_VSVwhPQeJhxlvNOvW64j0=" />
@@ -247,94 +199,116 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/release/release_cb569240d7f6e9b09896125ec22277b9263bde04.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/release/release_cb569240d7f6e9b09896125ec22277b9263bde04.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/release/support-annotations-23.1.1_abb2b6e91d8252b4d81cb5bfae94ef4952ee616f.jar" afterPath="$PROJECT_DIR$/app/build/intermediates/pre-dexed/release/support-annotations-23.1.1_abb2b6e91d8252b4d81cb5bfae94ef4952ee616f.jar" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_cast_dark.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_cast_dark.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_play_dark.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_play_dark.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_cast_on_light.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable-hdpi/ic_cast_on_light.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable-hdpi/powered_by_google_dark.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable-hdpi/powered_by_google_dark.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_scrubber_control_to_pressed_mtrl_000.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable-mdpi/abc_scrubber_control_to_pressed_mtrl_000.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_cast_on_light.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_cast_on_light.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_setting_dark.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_setting_dark.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable-xxhdpi/abc_ic_voice_search_api_mtrl_alpha.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable-xxhdpi/abc_ic_voice_search_api_mtrl_alpha.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable-xhdpi/abc_btn_rating_star_on_mtrl_alpha.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable-xhdpi/abc_btn_rating_star_on_mtrl_alpha.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable-xhdpi/abc_ic_ab_back_mtrl_am_alpha.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable-xhdpi/abc_ic_ab_back_mtrl_am_alpha.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable-xhdpi/abc_ic_menu_selectall_mtrl_alpha.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable-xhdpi/abc_ic_menu_selectall_mtrl_alpha.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_cast_off_light.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_cast_off_light.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_media_route_disabled_mono_dark.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_media_route_disabled_mono_dark.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_media_route_off_mono_dark.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_media_route_off_mono_dark.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable-xxhdpi/abc_btn_check_to_on_mtrl_015.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable-xxhdpi/abc_btn_check_to_on_mtrl_015.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_cast_light.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_cast_light.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_cast_off_light.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_cast_off_light.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_media_pause.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_media_pause.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_cast_on_2_light.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_cast_on_2_light.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_media_play.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_media_play.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_media_route_disabled_mono_dark.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_media_route_disabled_mono_dark.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_pause_light.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable-xxhdpi/ic_pause_light.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable-xxhdpi/places_ic_search.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable-xxhdpi/places_ic_search.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/abc_ic_menu_cut_mtrl_alpha.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/abc_ic_menu_cut_mtrl_alpha.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/powered_by_google_dark.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/drawable-xxxhdpi/powered_by_google_dark.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/mipmap-hdpi/atlas.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/mipmap-hdpi/atlas.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/mipmap-hdpi/email.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/mipmap-hdpi/email.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/mipmap-hdpi/gnp.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/mipmap-hdpi/gnp.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/mipmap-xhdpi/axa.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/mipmap-xhdpi/axa.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/mipmap-xhdpi/compartir.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/mipmap-xhdpi/compartir.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/mipmap-xhdpi/home.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/mipmap-xhdpi/home.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/mipmap-xhdpi/sms.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/mipmap-xhdpi/sms.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/axa.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/axa.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/mipmap-xhdpi/email.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/mipmap-xhdpi/email.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/mipmap-xhdpi/gnp.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/mipmap-xhdpi/gnp.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/mipmap-xhdpi/llamar.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/mipmap-xhdpi/llamar.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/atlas.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/atlas.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/chrysler.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/chrysler.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/gnp.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/gnp.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/inbursa.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/inbursa.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/llamar.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/llamar.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/mapfre.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/mapfre.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/mimit.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/mimit.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/chrysler.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/chrysler.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/qualitas.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/mipmap-xxhdpi/qualitas.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/axa.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/axa.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/email.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/email.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/gnp.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/gnp.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/inbursa.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/inbursa.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/mimit.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/mimit.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/home.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/home.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/llamar.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/llamar.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/sms.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/mipmap-xxxhdpi/sms.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-hdpi/abc_btn_check_to_on_mtrl_015.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-hdpi/abc_btn_check_to_on_mtrl_015.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-hdpi/abc_btn_rating_star_off_mtrl_alpha.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-hdpi/abc_btn_rating_star_off_mtrl_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-hdpi/abc_btn_rating_star_on_mtrl_alpha.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-hdpi/abc_btn_rating_star_on_mtrl_alpha.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-hdpi/abc_ic_search_api_mtrl_alpha.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-hdpi/abc_ic_search_api_mtrl_alpha.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-hdpi/cast_ic_notification_1.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-hdpi/cast_ic_notification_1.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-hdpi/cast_ic_notification_2.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-hdpi/cast_ic_notification_2.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-hdpi/common_ic_googleplayservices.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-hdpi/common_ic_googleplayservices.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-hdpi/ic_cast_disabled_light.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-hdpi/ic_cast_disabled_light.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-hdpi/ic_media_route_disabled_mono_dark.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-hdpi/ic_media_route_disabled_mono_dark.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-hdpi/ic_media_route_on_0_mono_dark.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-hdpi/ic_media_route_on_0_mono_dark.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-hdpi/ic_media_route_on_mono_dark.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-hdpi/ic_media_route_on_mono_dark.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-hdpi/ic_pause_dark.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-hdpi/ic_pause_dark.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-hdpi/places_ic_search.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-hdpi/places_ic_search.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-hdpi/ic_plusone_standard_off_client.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-hdpi/ic_plusone_standard_off_client.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-hdpi/powered_by_google_dark.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-hdpi/powered_by_google_dark.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-hdpi/powered_by_google_light.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-hdpi/powered_by_google_light.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-ldrtl-mdpi/abc_ic_ab_back_mtrl_am_alpha.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-ldrtl-mdpi/abc_ic_ab_back_mtrl_am_alpha.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-ldrtl-xxxhdpi/abc_ic_menu_cut_mtrl_alpha.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-ldrtl-xxxhdpi/abc_ic_menu_cut_mtrl_alpha.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-mdpi/abc_btn_check_to_on_mtrl_000.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-mdpi/abc_btn_check_to_on_mtrl_000.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-mdpi/abc_ic_go_search_api_mtrl_alpha.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-mdpi/abc_ic_go_search_api_mtrl_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-mdpi/ic_pause_dark.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-mdpi/ic_pause_dark.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-mdpi/powered_by_google_dark.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-mdpi/powered_by_google_dark.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-mdpi/powered_by_google_light.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-mdpi/powered_by_google_light.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xhdpi/abc_ic_menu_moreoverflow_mtrl_alpha.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xhdpi/abc_ic_menu_moreoverflow_mtrl_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xhdpi/abc_scrubber_control_off_mtrl_alpha.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xhdpi/abc_scrubber_control_off_mtrl_alpha.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-mdpi/abc_ic_ab_back_mtrl_am_alpha.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-mdpi/abc_ic_ab_back_mtrl_am_alpha.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-mdpi/ic_cast_on_1_light.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-mdpi/ic_cast_on_1_light.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-mdpi/ic_plusone_tall_off_client.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-mdpi/ic_plusone_tall_off_client.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-tvdpi/ic_plusone_medium_off_client.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-tvdpi/ic_plusone_medium_off_client.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xhdpi/abc_btn_radio_to_on_mtrl_015.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xhdpi/abc_btn_radio_to_on_mtrl_015.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xhdpi/ic_cast_dark.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xhdpi/ic_cast_dark.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xhdpi/ic_cast_off_light.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xhdpi/ic_cast_off_light.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xhdpi/ic_cast_on_0_light.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xhdpi/ic_cast_on_0_light.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xhdpi/ic_cast_on_2_light.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xhdpi/ic_cast_on_2_light.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xhdpi/ic_cast_on_light.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xhdpi/ic_cast_on_light.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xhdpi/ic_media_pause.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xhdpi/ic_media_pause.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xhdpi/ic_media_route_disabled_mono_dark.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xhdpi/ic_media_route_disabled_mono_dark.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xhdpi/ic_media_route_off_mono_dark.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xhdpi/ic_media_route_off_mono_dark.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xhdpi/ic_media_route_on_1_mono_dark.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xhdpi/ic_media_route_on_1_mono_dark.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xhdpi/ic_media_route_on_mono_dark.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xhdpi/ic_media_route_on_mono_dark.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xxhdpi/abc_ic_menu_share_mtrl_alpha.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xxhdpi/abc_ic_menu_share_mtrl_alpha.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xhdpi/ic_plusone_small_off_client.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xhdpi/ic_plusone_small_off_client.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xhdpi/powered_by_google_dark.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xhdpi/powered_by_google_dark.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xhdpi/powered_by_google_light.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xhdpi/powered_by_google_light.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xxhdpi/abc_btn_rating_star_on_mtrl_alpha.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xxhdpi/abc_btn_rating_star_on_mtrl_alpha.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xxhdpi/abc_ic_menu_cut_mtrl_alpha.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xxhdpi/abc_ic_menu_cut_mtrl_alpha.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xxhdpi/abc_ic_search_api_mtrl_alpha.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xxhdpi/abc_ic_search_api_mtrl_alpha.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xxhdpi/abc_ic_voice_search_api_mtrl_alpha.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xxhdpi/abc_ic_voice_search_api_mtrl_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xxhdpi/abc_scrubber_control_to_pressed_mtrl_000.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xxhdpi/abc_scrubber_control_to_pressed_mtrl_000.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xxhdpi/ic_cast_disabled_light.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xxhdpi/ic_cast_disabled_light.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xxhdpi/ic_cast_on_0_light.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xxhdpi/ic_cast_on_0_light.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xxhdpi/ic_cast_on_light.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xxhdpi/ic_cast_on_light.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xxhdpi/ic_media_route_disabled_mono_dark.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xxhdpi/ic_media_route_disabled_mono_dark.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xxhdpi/ic_media_route_off_mono_dark.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xxhdpi/ic_media_route_off_mono_dark.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xxhdpi/ic_media_route_on_1_mono_dark.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xxhdpi/ic_media_route_on_1_mono_dark.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xxhdpi/ic_play_light.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xxhdpi/ic_play_light.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xxhdpi/ic_plusone_standard_off_client.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xxhdpi/ic_plusone_standard_off_client.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xxhdpi/ic_setting_dark.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xxhdpi/ic_setting_dark.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xxhdpi/powered_by_google_dark.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xxhdpi/powered_by_google_dark.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xxhdpi/powered_by_google_light.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xxhdpi/powered_by_google_light.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xxxhdpi/abc_ic_ab_back_mtrl_am_alpha.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xxxhdpi/abc_ic_ab_back_mtrl_am_alpha.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xxxhdpi/abc_btn_radio_to_on_mtrl_000.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xxxhdpi/abc_btn_radio_to_on_mtrl_000.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xxxhdpi/abc_ic_search_api_mtrl_alpha.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xxxhdpi/abc_ic_search_api_mtrl_alpha.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xxxhdpi/abc_scrubber_control_to_pressed_mtrl_000.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xxxhdpi/abc_scrubber_control_to_pressed_mtrl_000.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xxxhdpi/places_ic_clear.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xxxhdpi/places_ic_clear.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xxxhdpi/powered_by_google_dark.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/drawable-xxxhdpi/powered_by_google_dark.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/mipmap-hdpi/atlas.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/mipmap-hdpi/atlas.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/mipmap-hdpi/axa.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/mipmap-hdpi/axa.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/mipmap-hdpi/gnp.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/mipmap-hdpi/gnp.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/mipmap-hdpi/llamar.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/mipmap-hdpi/llamar.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/mipmap-hdpi/mimit.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/mipmap-hdpi/mimit.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/mipmap-hdpi/seminuevos.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/mipmap-hdpi/seminuevos.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/mipmap-mdpi/compartir.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/mipmap-mdpi/compartir.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/mipmap-mdpi/gnp.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/mipmap-mdpi/gnp.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/mipmap-mdpi/mimit.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/mipmap-mdpi/mimit.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/mipmap-mdpi/atlas.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/mipmap-mdpi/atlas.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/mipmap-mdpi/email.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/mipmap-mdpi/email.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/mipmap-mdpi/llamar.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/mipmap-mdpi/llamar.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/mipmap-xhdpi/atlas.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/mipmap-xhdpi/atlas.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/mipmap-xhdpi/compartir.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/mipmap-xhdpi/compartir.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/mipmap-xhdpi/axa.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/mipmap-xhdpi/axa.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/mipmap-xhdpi/inbursa.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/mipmap-xhdpi/inbursa.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/mipmap-xhdpi/llamar.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/mipmap-xhdpi/llamar.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/mipmap-xhdpi/mapfre.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/mipmap-xhdpi/mapfre.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/mipmap-xhdpi/qualitas.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/mipmap-xhdpi/qualitas.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/mipmap-xhdpi/sms.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/mipmap-xhdpi/sms.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/mipmap-xxhdpi/chrysler.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/mipmap-xxhdpi/chrysler.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/mipmap-xxhdpi/inbursa.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/mipmap-xxhdpi/inbursa.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/mipmap-xxhdpi/email.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/mipmap-xxhdpi/email.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/mipmap-xxhdpi/gnp.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/mipmap-xxhdpi/gnp.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/mipmap-xxhdpi/mapfre.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/mipmap-xxhdpi/mapfre.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/mipmap-xxhdpi/sms.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/mipmap-xxhdpi/sms.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/mipmap-xxxhdpi/atlas.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/mipmap-xxxhdpi/atlas.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/mipmap-xxxhdpi/axa.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/mipmap-xxxhdpi/axa.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/mipmap-xxxhdpi/compartir.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/mipmap-xxxhdpi/compartir.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/mipmap-xxxhdpi/home.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/mipmap-xxxhdpi/home.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/mipmap-xxhdpi/mimit.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/mipmap-xxhdpi/mimit.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/mipmap-xxhdpi/qualitas.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/mipmap-xxhdpi/qualitas.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/mipmap-xxxhdpi/llamar.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/mipmap-xxxhdpi/llamar.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/mipmap-xxxhdpi/nuevos.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/mipmap-xxxhdpi/nuevos.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/mipmap-xxxhdpi/qualitas.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/mipmap-xxxhdpi/qualitas.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/mipmap-xxxhdpi/seminuevos.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/mipmap-xxxhdpi/seminuevos.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/mipmap-xxxhdpi/sms.png" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/mipmap-xxxhdpi/sms.png" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/resources-debug.ap_" afterPath="$PROJECT_DIR$/app/build/intermediates/res/resources-debug.ap_" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/resources-release.ap_" afterPath="$PROJECT_DIR$/app/build/intermediates/res/resources-release.ap_" />
@@ -342,32 +316,42 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/release/folders/1000/1f/main/classes.dex" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/dex/release/folders/1000/1f/main/classes.dex" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/webjuarez/miasesorautomotriz/Agencia$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/webjuarez/miasesorautomotriz/Agencia$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/webjuarez/miasesorautomotriz/Agencia.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/webjuarez/miasesorautomotriz/Agencia.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/webjuarez/miasesorautomotriz/BuildConfig.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/webjuarez/miasesorautomotriz/BuildConfig.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/webjuarez/miasesorautomotriz/CustomAdapter$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/webjuarez/miasesorautomotriz/CustomAdapter$1.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/webjuarez/miasesorautomotriz/CustomAdapter.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/webjuarez/miasesorautomotriz/CustomAdapter.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/webjuarez/miasesorautomotriz/R$id.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/webjuarez/miasesorautomotriz/R$id.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/webjuarez/miasesorautomotriz/Config.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/webjuarez/miasesorautomotriz/Config.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/webjuarez/miasesorautomotriz/Seguros$1$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/webjuarez/miasesorautomotriz/Seguros$1$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/webjuarez/miasesorautomotriz/Seguros$1$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/webjuarez/miasesorautomotriz/Seguros$1$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/webjuarez/miasesorautomotriz/Seguros$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/webjuarez/miasesorautomotriz/Seguros$1.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/webjuarez/miasesorautomotriz/Seguros$10.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/webjuarez/miasesorautomotriz/Seguros$10.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/webjuarez/miasesorautomotriz/Seguros$11$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/webjuarez/miasesorautomotriz/Seguros$11$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/webjuarez/miasesorautomotriz/Seguros$11$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/webjuarez/miasesorautomotriz/Seguros$11$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/webjuarez/miasesorautomotriz/Seguros$11.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/webjuarez/miasesorautomotriz/Seguros$11.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/webjuarez/miasesorautomotriz/Seguros$2$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/webjuarez/miasesorautomotriz/Seguros$2$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/webjuarez/miasesorautomotriz/Seguros$2$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/webjuarez/miasesorautomotriz/Seguros$2$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/webjuarez/miasesorautomotriz/Seguros$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/webjuarez/miasesorautomotriz/Seguros$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/webjuarez/miasesorautomotriz/Seguros$3$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/webjuarez/miasesorautomotriz/Seguros$3$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/webjuarez/miasesorautomotriz/Seguros$3$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/webjuarez/miasesorautomotriz/Seguros$3$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/webjuarez/miasesorautomotriz/Seguros$3.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/webjuarez/miasesorautomotriz/Seguros$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/webjuarez/miasesorautomotriz/Seguros$4$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/webjuarez/miasesorautomotriz/Seguros$4$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/webjuarez/miasesorautomotriz/Seguros$4$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/webjuarez/miasesorautomotriz/Seguros$4$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/webjuarez/miasesorautomotriz/Seguros$4.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/webjuarez/miasesorautomotriz/Seguros$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/webjuarez/miasesorautomotriz/Seguros$5$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/webjuarez/miasesorautomotriz/Seguros$5$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/webjuarez/miasesorautomotriz/Seguros$5$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/webjuarez/miasesorautomotriz/Seguros$5$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/webjuarez/miasesorautomotriz/Seguros$5.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/webjuarez/miasesorautomotriz/Seguros$5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/webjuarez/miasesorautomotriz/Seguros$6$1.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/webjuarez/miasesorautomotriz/Seguros$6$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/webjuarez/miasesorautomotriz/Seguros$6$2.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/webjuarez/miasesorautomotriz/Seguros$6$2.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/webjuarez/miasesorautomotriz/Seguros$6.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/webjuarez/miasesorautomotriz/Seguros$6.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/webjuarez/miasesorautomotriz/Seguros$7.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/webjuarez/miasesorautomotriz/Seguros$7.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/webjuarez/miasesorautomotriz/Seguros$8.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/webjuarez/miasesorautomotriz/Seguros$8.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/webjuarez/miasesorautomotriz/Seguros$9.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/webjuarez/miasesorautomotriz/Seguros$9.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/webjuarez/miasesorautomotriz/Seguros.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/webjuarez/miasesorautomotriz/Seguros.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/webjuarez/miasesorautomotriz/Tramites_Online_3$6$4.class" afterPath="$PROJECT_DIR$/app/build/intermediates/transforms/instantRun/debug/folders/1/5/main/com/webjuarez/miasesorautomotriz/Tramites_Online_3$6$4.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/apk/app-debug.apk" afterPath="$PROJECT_DIR$/app/build/outputs/apk/app-debug.apk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/appcompat_v7_23_1_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/appcompat_v7_23_1_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/mediarouter_v7_23_0_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/mediarouter_v7_23_0_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/support_v4_23_1_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/support_v4_23_1_1.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/app.iml" afterPath="$PROJECT_DIR$/app/app.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/generated/source/buildConfig/debug/com/webjuarez/miasesorautomotriz/BuildConfig.java" afterPath="$PROJECT_DIR$/app/build/generated/source/buildConfig/debug/com/webjuarez/miasesorautomotriz/BuildConfig.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/generated/source/buildConfig/release/com/webjuarez/miasesorautomotriz/BuildConfig.java" afterPath="$PROJECT_DIR$/app/build/generated/source/buildConfig/release/com/webjuarez/miasesorautomotriz/BuildConfig.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/webjuarez/miasesorautomotriz/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/debug/com/webjuarez/miasesorautomotriz/R.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/generated/source/r/release/com/webjuarez/miasesorautomotriz/R.java" afterPath="$PROJECT_DIR$/app/build/generated/source/r/release/com/webjuarez/miasesorautomotriz/R.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-xhdpi.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/debug/single/drawable-xhdpi.json" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/blame/res/release/single/drawable-tvdpi.json" afterPath="$PROJECT_DIR$/app/build/intermediates/blame/res/release/single/drawable-tvdpi.json" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugAndroidTestResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugAndroidTestResources/compile-file-map.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeDebugResources/compile-file-map.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeReleaseResources/compile-file-map.properties" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/mergeReleaseResources/compile-file-map.properties" />
@@ -377,24 +361,16 @@
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageInstantRunResourcesDebug/file-input-save-data.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageInstantRunResourcesDebug/file-input-save-data.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageRelease/dex-renamer-state.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageRelease/dex-renamer-state.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/incremental/packageRelease/file-input-save-data.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/incremental/packageRelease/file-input-save-data.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/manifest.crc" afterPath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/manifest.crc" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/manifest.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/instant-run-support/debug/manifest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/manifests/full/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/manifests/full/debug/AndroidManifest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/manifests/full/release/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/manifests/full/release/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/manifests/instant-run/debug/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/manifests/instant-run/debug/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/activity_seguros.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/debug/layout/activity_seguros.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/layout/activity_seguros.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/res/merged/release/layout/activity_seguros.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/restart-dex/debug/build-info.xml" afterPath="$PROJECT_DIR$/app/build/intermediates/restart-dex/debug/build-info.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/symbols/debug/R.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/symbols/debug/R.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/intermediates/symbols/release/R.txt" afterPath="$PROJECT_DIR$/app/build/intermediates/symbols/release/R.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/lint-results-release-fatal.html" afterPath="$PROJECT_DIR$/app/build/outputs/lint-results-release-fatal.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-debug-report.txt" afterPath="$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-debug-report.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-release-report.txt" afterPath="$PROJECT_DIR$/app/build/outputs/logs/manifest-merger-release-report.txt" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/webjuarez/miasesorautomotriz/Agencia.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/webjuarez/miasesorautomotriz/Agencia.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/webjuarez/miasesorautomotriz/CustomAdapter.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/webjuarez/miasesorautomotriz/CustomAdapter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/webjuarez/miasesorautomotriz/Config.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/webjuarez/miasesorautomotriz/Config.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/webjuarez/miasesorautomotriz/Seguros.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/webjuarez/miasesorautomotriz/Seguros.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/res/layout/activity_seguros.xml" afterPath="$PROJECT_DIR$/app/src/main/res/layout/activity_seguros.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" afterPath="$PROJECT_DIR$/build/intermediates/dex-cache/cache.xml" />
     </list>
     <ignored path="Mi-Asesor-Automotriz-Android.iws" />
@@ -433,8 +409,8 @@
       <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+            <state relative-caret-position="51">
+              <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -443,140 +419,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Agencia.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/webjuarez/miasesorautomotriz/Agencia.java">
+      <file leaf-file-name="Config.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/webjuarez/miasesorautomotriz/Config.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2890">
-              <caret line="194" column="34" selection-start-line="194" selection-start-column="34" selection-end-line="194" selection-end-column="46" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="inbursa.png" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/mipmap-hdpi/inbursa.png">
-          <provider selected="true" editor-type-id="images">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="activity_seguros.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_seguros.xml">
-          <provider selected="true" editor-type-id="android-designer2">
-            <state />
-          </provider>
-          <provider editor-type-id="text-editor">
-            <state relative-caret-position="2431">
-              <caret line="143" column="0" selection-start-line="143" selection-start-column="0" selection-end-line="143" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Seguros.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/webjuarez/miasesorautomotriz/Seguros.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="115">
-              <caret line="76" column="8" selection-start-line="76" selection-start-column="8" selection-end-line="76" selection-end-column="8" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#3369#4652#0" expanded="true" />
-                <element signature="e#3741#4226#0" expanded="true" />
-                <element signature="e#4225#4226#0" expanded="true" />
-                <element signature="e#4292#4518#0" expanded="true" />
-                <element signature="e#4517#4518#0" expanded="true" />
-                <element signature="e#4651#4652#0" expanded="true" />
-                <element signature="e#4798#6081#0" expanded="true" />
-                <element signature="e#5170#5655#0" expanded="true" />
-                <element signature="e#5654#5655#0" expanded="true" />
-                <element signature="e#5721#5947#0" expanded="true" />
-                <element signature="e#5946#5947#0" expanded="true" />
-                <element signature="e#6080#6081#0" expanded="true" />
-                <element signature="e#6227#7510#0" expanded="true" />
-                <element signature="e#6599#7084#0" expanded="true" />
-                <element signature="e#7083#7084#0" expanded="true" />
-                <element signature="e#7150#7376#0" expanded="true" />
-                <element signature="e#7375#7376#0" expanded="true" />
-                <element signature="e#7509#7510#0" expanded="true" />
-                <element signature="e#7656#8939#0" expanded="true" />
-                <element signature="e#8028#8513#0" expanded="true" />
-                <element signature="e#8512#8513#0" expanded="true" />
-                <element signature="e#8579#8805#0" expanded="true" />
-                <element signature="e#8804#8805#0" expanded="true" />
-                <element signature="e#8938#8939#0" expanded="true" />
-                <element signature="e#9085#10368#0" expanded="true" />
-                <element signature="e#9457#9942#0" expanded="true" />
-                <element signature="e#9941#9942#0" expanded="true" />
-                <element signature="e#10008#10234#0" expanded="true" />
-                <element signature="e#10233#10234#0" expanded="true" />
-                <element signature="e#10367#10368#0" expanded="true" />
-                <element signature="e#10514#11797#0" expanded="true" />
-                <element signature="e#10886#11371#0" expanded="true" />
-                <element signature="e#11370#11371#0" expanded="true" />
-                <element signature="e#11437#11663#0" expanded="true" />
-                <element signature="e#11662#11663#0" expanded="true" />
-                <element signature="e#11796#11797#0" expanded="true" />
-                <element signature="e#11956#12216#0" expanded="true" />
-                <element signature="e#12215#12216#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Asesor.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/webjuarez/miasesorautomotriz/Asesor.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="119">
-              <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MiAuto.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/java/com/webjuarez/miasesorautomotriz/MiAuto.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2019">
-              <caret line="388" column="0" selection-start-line="252" selection-start-column="4" selection-end-line="388" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="activity_inicio.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_inicio.xml">
-          <provider selected="true" editor-type-id="android-designer2">
-            <state />
-          </provider>
-          <provider editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="activity_cita_no_login_1.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_cita_no_login_1.xml">
-          <provider selected="true" editor-type-id="android-designer2">
-            <state />
-          </provider>
-          <provider editor-type-id="text-editor">
-            <state relative-caret-position="1139">
-              <caret line="67" column="42" selection-start-line="67" selection-start-column="42" selection-end-line="67" selection-end-column="42" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="activity_miauto.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_miauto.xml">
-          <provider editor-type-id="android-designer2">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="3910">
-              <caret line="230" column="17" selection-start-line="0" selection-start-column="0" selection-end-line="230" selection-end-column="17" />
+            <state relative-caret-position="289">
+              <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="65" />
               <folding />
             </state>
           </provider>
@@ -3378,7 +3225,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/app/src/main/res/layout/welcome_no_login.xml" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/webjuarez/miasesorautomotriz/Config.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_agencia.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_cita_no_login_2copi.xml" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_cita_no_login_2.xml" />
@@ -3423,10 +3269,11 @@
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_tramites_3.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/webjuarez/miasesorautomotriz/CostoServicio_NoLogin_3.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/webjuarez/miasesorautomotriz/Tramites_Online_3.java" />
-        <option value="$PROJECT_DIR$/app/src/main/java/com/webjuarez/miasesorautomotriz/Agencia.java" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/webjuarez/miasesorautomotriz/CustomAdapter.java" />
         <option value="$PROJECT_DIR$/app/src/main/res/layout/activity_seguros.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/webjuarez/miasesorautomotriz/Seguros.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/webjuarez/miasesorautomotriz/Config.java" />
+        <option value="$PROJECT_DIR$/app/src/main/java/com/webjuarez/miasesorautomotriz/Agencia.java" />
         <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
       </list>
     </option>
@@ -3484,7 +3331,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
       <pane id="Scratches" />
       <pane id="AndroidView">
         <subPane>
@@ -3505,9 +3351,6 @@
             </PATH_ELEMENT>
           </PATH>
         </subPane>
-      </pane>
-      <pane id="ProjectPane">
-        <subPane />
       </pane>
       <pane id="Scope">
         <subPane subId="Project Files">
@@ -3619,6 +3462,10 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="ProjectPane">
+        <subPane />
+      </pane>
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -3985,20 +3832,20 @@
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3279483" sideWeight="0.4935275" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24071082" sideWeight="0.34546927" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24071082" sideWeight="0.34061489" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33764136" sideWeight="0.526699" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.41357028" sideWeight="0.65048546" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33764136" sideWeight="0.45064723" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33764136" sideWeight="0.43770227" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.31502423" sideWeight="0.487055" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3279483" sideWeight="0.47330096" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Captures" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33764136" sideWeight="0.65453076" order="11" side_tool="true" content_ui="tabs" />
+      <window_info id="Gradle Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.33764136" sideWeight="0.56229776" order="11" side_tool="true" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23381877" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -4077,13 +3924,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/volley/rules.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -4114,13 +3954,13 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_cita_no_login_33.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="106">
           <caret line="101" column="0" selection-start-line="101" selection-start-column="0" selection-end-line="107" selection-end-column="49" />
         </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/build.gradle">
@@ -4146,53 +3986,53 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_cita_no_login_2.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" column="4" selection-start-line="7" selection-start-column="4" selection-end-line="19" selection-end-column="0" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_cita_no_login_4.xml">
       <provider editor-type-id="android-designer2">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_cita_no_login_4.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1088">
           <caret line="64" column="0" selection-start-line="64" selection-start-column="0" selection-end-line="64" selection-end-column="0" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_costo_no_login_2.xml">
       <provider editor-type-id="android-designer2">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_costo_no_login_2.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1003">
           <caret line="59" column="48" selection-start-line="59" selection-start-column="48" selection-end-line="59" selection-end-column="48" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_costo_no_login_22.xml">
-      <provider selected="true" editor-type-id="android-designer2">
+      <provider editor-type-id="android-designer2">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_costo_no_login_22.xml">
       <provider editor-type-id="text-editor">
         <state relative-caret-position="1156">
           <caret line="68" column="43" selection-start-line="68" selection-start-column="43" selection-end-line="68" selection-end-column="43" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_costo_no_login_3.xml">
       <provider selected="true" editor-type-id="android-designer2">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_costo_no_login_3.xml">
       <provider editor-type-id="text-editor">
         <state relative-caret-position="901">
           <caret line="53" column="4" selection-start-line="53" selection-start-column="4" selection-end-line="53" selection-end-column="4" />
         </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/webjuarez/miasesorautomotriz/MiAutoEditar.java">
@@ -4288,23 +4128,23 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/webjuarez/miasesorautomotriz/Tramites_0nline_3.java" />
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_tramites_online_1.xml">
-      <provider selected="true" editor-type-id="android-designer2">
-        <state />
-      </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_costo_no_login_1.xml">
       <provider selected="true" editor-type-id="android-designer2">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_costo_no_login_1.xml">
       <provider editor-type-id="text-editor">
         <state relative-caret-position="319">
           <caret line="67" column="44" selection-start-line="67" selection-start-column="44" selection-end-line="67" selection-end-column="44" />
         </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/webjuarez/miasesorautomotriz/Tramites_Online_1.java">
@@ -4325,19 +4165,17 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
           <caret line="20" column="21" selection-start-line="20" selection-start-column="21" selection-end-line="20" selection-end-column="21" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_tramites_3.xml">
-      <provider selected="true" editor-type-id="android-designer2">
-        <state />
-      </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/webjuarez/miasesorautomotriz/Mail.java">
@@ -4362,25 +4200,23 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_tramites_2.xml">
-      <provider selected="true" editor-type-id="android-designer2">
-        <state />
-      </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_tramites_1.xml">
-      <provider selected="true" editor-type-id="android-designer2">
-        <state />
-      </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/webjuarez/miasesorautomotriz/Inicio.java">
@@ -4394,9 +4230,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="4267">
           <caret line="266" column="118" selection-start-line="266" selection-start-column="118" selection-end-line="266" selection-end-column="118" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -4406,130 +4239,90 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_inicio.xml">
-      <provider selected="true" editor-type-id="android-designer2">
-        <state />
-      </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_cita_no_login_1.xml">
       <provider selected="true" editor-type-id="android-designer2">
         <state />
       </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_cita_no_login_1.xml">
       <provider editor-type-id="text-editor">
         <state relative-caret-position="1139">
           <caret line="67" column="42" selection-start-line="67" selection-start-column="42" selection-end-line="67" selection-end-column="42" />
-          <folding />
         </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_miauto.xml">
-      <provider editor-type-id="android-designer2">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3910">
           <caret line="230" column="17" selection-start-line="0" selection-start-column="0" selection-end-line="230" selection-end-column="17" />
-          <folding />
         </state>
+      </provider>
+      <provider editor-type-id="android-designer2">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/webjuarez/miasesorautomotriz/Asesor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/webjuarez/miasesorautomotriz/Agencia.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2890">
-          <caret line="194" column="34" selection-start-line="194" selection-start-column="34" selection-end-line="194" selection-end-column="46" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/webjuarez/miasesorautomotriz/MiAuto.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2019">
+        <state relative-caret-position="6035">
           <caret line="388" column="0" selection-start-line="252" selection-start-column="4" selection-end-line="388" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/res/layout/activity_seguros.xml">
-      <provider selected="true" editor-type-id="android-designer2">
-        <state />
-      </provider>
       <provider editor-type-id="text-editor">
         <state relative-caret-position="2431">
           <caret line="143" column="0" selection-start-line="143" selection-start-column="0" selection-end-line="143" selection-end-column="0" />
-          <folding />
         </state>
+      </provider>
+      <provider selected="true" editor-type-id="android-designer2">
+        <state />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/webjuarez/miasesorautomotriz/Seguros.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="115">
-          <caret line="76" column="8" selection-start-line="76" selection-start-column="8" selection-end-line="76" selection-end-column="8" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3369#4652#0" expanded="true" />
-            <element signature="e#3741#4226#0" expanded="true" />
-            <element signature="e#4225#4226#0" expanded="true" />
-            <element signature="e#4292#4518#0" expanded="true" />
-            <element signature="e#4517#4518#0" expanded="true" />
-            <element signature="e#4651#4652#0" expanded="true" />
-            <element signature="e#4798#6081#0" expanded="true" />
-            <element signature="e#5170#5655#0" expanded="true" />
-            <element signature="e#5654#5655#0" expanded="true" />
-            <element signature="e#5721#5947#0" expanded="true" />
-            <element signature="e#5946#5947#0" expanded="true" />
-            <element signature="e#6080#6081#0" expanded="true" />
-            <element signature="e#6227#7510#0" expanded="true" />
-            <element signature="e#6599#7084#0" expanded="true" />
-            <element signature="e#7083#7084#0" expanded="true" />
-            <element signature="e#7150#7376#0" expanded="true" />
-            <element signature="e#7375#7376#0" expanded="true" />
-            <element signature="e#7509#7510#0" expanded="true" />
-            <element signature="e#7656#8939#0" expanded="true" />
-            <element signature="e#8028#8513#0" expanded="true" />
-            <element signature="e#8512#8513#0" expanded="true" />
-            <element signature="e#8579#8805#0" expanded="true" />
-            <element signature="e#8804#8805#0" expanded="true" />
-            <element signature="e#8938#8939#0" expanded="true" />
-            <element signature="e#9085#10368#0" expanded="true" />
-            <element signature="e#9457#9942#0" expanded="true" />
-            <element signature="e#9941#9942#0" expanded="true" />
-            <element signature="e#10008#10234#0" expanded="true" />
-            <element signature="e#10233#10234#0" expanded="true" />
-            <element signature="e#10367#10368#0" expanded="true" />
-            <element signature="e#10514#11797#0" expanded="true" />
-            <element signature="e#10886#11371#0" expanded="true" />
-            <element signature="e#11370#11371#0" expanded="true" />
-            <element signature="e#11437#11663#0" expanded="true" />
-            <element signature="e#11662#11663#0" expanded="true" />
-            <element signature="e#11796#11797#0" expanded="true" />
-            <element signature="e#11956#12216#0" expanded="true" />
-            <element signature="e#12215#12216#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="185">
+          <caret line="108" column="31" selection-start-line="108" selection-start-column="31" selection-end-line="109" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/webjuarez/miasesorautomotriz/Agencia.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="155" column="45" selection-start-line="155" selection-start-column="45" selection-end-line="155" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/webjuarez/miasesorautomotriz/Config.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="1" selection-start-line="17" selection-start-column="1" selection-end-line="17" selection-end-column="65" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-      <provider editor-type-id="android-manifest">
-        <state />
-      </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+        <state relative-caret-position="51">
+          <caret line="3" column="27" selection-start-line="3" selection-start-column="27" selection-end-line="3" selection-end-column="27" />
           <folding />
         </state>
+      </provider>
+      <provider editor-type-id="android-manifest">
+        <state />
       </provider>
     </entry>
   </component>

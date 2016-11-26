@@ -20,12 +20,12 @@
         "source": "C:\\Users\\Modesto\\git\\Mi-Asesor-Automotriz-Android\\Mi-Asesor-Automotriz-Android\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-tvdpi\\common_plus_signin_btn_icon_dark_disabled.9.png"
     },
     {
-        "merged": "C:\\Users\\Modesto\\git\\Mi-Asesor-Automotriz-Android\\Mi-Asesor-Automotriz-Android\\app\\build\\intermediates\\res\\merged\\release\\drawable-tvdpi\\common_plus_signin_btn_text_dark_disabled.9.png",
-        "source": "C:\\Users\\Modesto\\git\\Mi-Asesor-Automotriz-Android\\Mi-Asesor-Automotriz-Android\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-tvdpi\\common_plus_signin_btn_text_dark_disabled.9.png"
-    },
-    {
         "merged": "C:\\Users\\Modesto\\git\\Mi-Asesor-Automotriz-Android\\Mi-Asesor-Automotriz-Android\\app\\build\\intermediates\\res\\merged\\release\\drawable-tvdpi\\common_plus_signin_btn_text_light_focused.9.png",
         "source": "C:\\Users\\Modesto\\git\\Mi-Asesor-Automotriz-Android\\Mi-Asesor-Automotriz-Android\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-tvdpi\\common_plus_signin_btn_text_light_focused.9.png"
+    },
+    {
+        "merged": "C:\\Users\\Modesto\\git\\Mi-Asesor-Automotriz-Android\\Mi-Asesor-Automotriz-Android\\app\\build\\intermediates\\res\\merged\\release\\drawable-tvdpi\\common_plus_signin_btn_text_dark_disabled.9.png",
+        "source": "C:\\Users\\Modesto\\git\\Mi-Asesor-Automotriz-Android\\Mi-Asesor-Automotriz-Android\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.4.0\\res\\drawable-tvdpi\\common_plus_signin_btn_text_dark_disabled.9.png"
     },
     {
         "merged": "C:\\Users\\Modesto\\git\\Mi-Asesor-Automotriz-Android\\Mi-Asesor-Automotriz-Android\\app\\build\\intermediates\\res\\merged\\release\\drawable-tvdpi\\ic_plusone_standard_off_client.png",

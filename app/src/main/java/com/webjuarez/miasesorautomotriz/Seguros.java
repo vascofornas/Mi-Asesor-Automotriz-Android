@@ -106,9 +106,10 @@ public class Seguros extends Activity {
                         .setPositiveButton(android.R.string.yes, new DialogInterface.OnClickListener() {
                             public void onClick(DialogInterface dialog, int which) {
                                 // continue with delete
-                                Log.d("score", "Celular: " + tel_asesor);
+                                Log.d("score", "TEL ASEGURADORA 06: " +aseguradora6);
 
                                 Intent intent = new Intent(Intent.ACTION_CALL, Uri.parse("tel:" + aseguradora6));
+
 
 
                                 startActivity(intent);
